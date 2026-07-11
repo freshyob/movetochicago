@@ -32,6 +32,14 @@
       "summary": "This card will surface Chicago Public Schools enrollment deadlines and announcements relevant to relocating families.",
       "source": "Seed content",
       "url": "https://www.cps.edu"
+    },
+    {
+      "id": "seed-5",
+      "category": "Entertainment",
+      "headline": "What's Playing This Week",
+      "summary": "This card will surface current entertainment listings — theater, live music, comedy — from Time Out Chicago and WTTW once the daily job is connected.",
+      "source": "Seed content",
+      "url": "https://www.timeout.com/chicago"
     }
   ]
 }

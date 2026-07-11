@@ -1,9 +1,10 @@
 // api/cron-refresh-daily-content.js
 //
 // Scheduled job (see vercel.json "crons") that refreshes the Chicago Daily
-// feed once a day. It calls the Claude API with the web_search tool to pull
-// current Chicago news, food openings, festivals, and school announcements,
-// asks for structured JSON back, and writes the result to Vercel KV for
+// feed once a day, covering five categories: News, Food, Festivals,
+// Entertainment, and Schools. It calls the Claude API with the web_search
+// tool, instructed to pull only from named trusted Chicago outlets, asks
+// for structured JSON back, and writes the result to Vercel KV for
 // daily-content.js to serve.
 //
 // Setup:
@@ -17,33 +18,61 @@
 // This uses the real Anthropic API (api.anthropic.com), which is billed
 // per-request — unlike Claude usage inside claude.ai/artifacts, a deployed
 // site like this needs its own API key and pays standard API rates.
+//
+// This runs fully automatically with no human review, unlike the Stories
+// pipeline (cron-refresh-stories.js). That's a deliberate difference: these
+// are short, clearly-sourced news blurbs with a named source and link, not
+// long-form content attributed to a person, so the risk profile is lower.
+// If you'd rather add a review step here too, mirror the pending/approve
+// pattern from the Stories pipeline.
 
 import { kv } from '@vercel/kv'
 
-const CATEGORIES = ['News', 'Food', 'Festivals', 'Schools']
+const CATEGORIES = ['News', 'Food', 'Festivals', 'Entertainment', 'Schools']
+
+// Named, trusted Chicago sources per category — the model is instructed to
+// pull only from these (or say it found nothing) rather than an open web
+// search, to keep source quality and copyright posture consistent.
+const TRUSTED_SOURCES = {
+  News: ['Block Club Chicago', 'Chicago Sun-Times', 'WBEZ', 'Chicago Tribune'],
+  Food: ['Eater Chicago', 'Time Out Chicago', 'Chicago Tribune Food & Dining'],
+  Festivals: ['Choose Chicago events calendar', 'Chicago Park District', 'City of Chicago DCASE'],
+  Entertainment: ['Time Out Chicago', 'WTTW Chicago', 'Choose Chicago'],
+  Schools: ['Chicago Public Schools (cps.edu)', 'Chalkbeat Chicago'],
+}
 
 export default async function handler(req, res) {
-  // Verify this is actually the Vercel Cron trigger, not a public request.
   const authHeader = req.headers.authorization
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     res.status(401).json({ error: 'Unauthorized' })
     return
   }
 
-  const prompt = `You help maintain a Chicago relocation website. Search the web for
-what's genuinely current today in Chicago across these four categories:
-${CATEGORIES.join(', ')}. For each category, find 1-2 real, current items
-(a real festival happening soon, a real recent restaurant opening, a real
-current news story relevant to someone new to the city, a real CPS/school
-enrollment deadline or announcement). For each item, write a short original
-summary in your own words (2-3 sentences, do not quote sources directly) and
-include the source name and a real URL you found it at.
+  const sourceList = CATEGORIES.map((c) => `- ${c}: ${TRUSTED_SOURCES[c].join(', ')}`).join('\n')
+
+  const prompt = `You maintain the "Chicago Daily" feed on a Chicago relocation
+website. Search the web for what is genuinely current today in Chicago across
+these five categories, pulling ONLY from the named trusted source per
+category (search site-specific if helpful, e.g. "site:blockclubchicago.org"):
+
+${sourceList}
+
+For each category, find 1-2 real, current items — an actual recent local
+news story, a real recent restaurant opening, a real upcoming festival, a
+real current entertainment listing, a real CPS/school announcement or
+deadline. If you cannot find a genuinely current item from a trusted source
+for a category, skip that category rather than inventing one or using a
+lower-quality source.
+
+For each item, write a short ORIGINAL summary in your own words (2-3
+sentences, no direct quotes, no close paraphrasing of the source's
+sentences) and include the real source name and a real URL you found it at.
 
 Respond with ONLY valid JSON, no markdown fences, no preamble, in this exact
 shape:
 {
   "items": [
-    { "id": "string", "category": "News|Food|Festivals|Schools", "headline": "string", "summary": "string", "source": "string", "url": "string" }
+    { "id": "string", "category": "News|Food|Festivals|Entertainment|Schools", "headline": "string", "summary": "string", "source": "string", "url": "string" }
   ]
 }`
 
@@ -57,15 +86,13 @@ shape:
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-6',
-        max_tokens: 2000,
+        max_tokens: 2500,
         messages: [{ role: 'user', content: prompt }],
         tools: [{ type: 'web_search_20250305', name: 'web_search' }],
       }),
     })
 
-    if (!response.ok) {
-      throw new Error(`Anthropic API error: ${response.status}`)
-    }
+    if (!response.ok) throw new Error(`Anthropic API error: ${response.status}`)
 
     const data = await response.json()
     const textBlock = data.content.find((b) => b.type === 'text')

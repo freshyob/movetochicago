@@ -5,6 +5,7 @@ const categoryColor = {
   News: 'bg-municipal text-porcelain',
   Food: 'bg-flagred text-porcelain',
   Festivals: 'bg-limestone text-ink',
+  Entertainment: 'bg-skyblue text-porcelain',
   Schools: 'bg-slate text-porcelain',
 }
 

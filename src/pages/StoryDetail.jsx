@@ -1,11 +1,21 @@
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import stories from '../data/stories.json'
+import seedStories from '../data/stories.json'
 import neighborhoods from '../data/neighborhoods.json'
 import suburbs from '../data/suburbs.json'
 
 export default function StoryDetail() {
   const { slug } = useParams()
-  const story = stories.find((s) => s.slug === slug)
+  const [allStories, setAllStories] = useState(seedStories)
+
+  useEffect(() => {
+    fetch('/api/stories')
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => setAllStories(data.stories || seedStories))
+      .catch(() => {})
+  }, [])
+
+  const story = allStories.find((s) => s.slug === slug)
 
   if (!story) {
     return (
@@ -50,6 +60,15 @@ export default function StoryDetail() {
           <p key={i} className="text-base md:text-lg text-ink leading-relaxed">{p}</p>
         ))}
       </div>
+
+      {story.sourceUsed && story.sourceUsed !== 'general knowledge' && (
+        <p className="mt-6 text-xs font-mono text-slate">
+          Sourced from {story.sourceUsed}
+          {story.sourceUrl ? (
+            <> — <a href={story.sourceUrl} target="_blank" rel="noreferrer" className="text-flagred hover:underline">original story</a></>
+          ) : null}
+        </p>
+      )}
 
       <div className="mt-10 border-l-2 border-flagred pl-5 py-1">
         <p className="text-sm text-slate leading-relaxed italic">

@@ -91,6 +91,80 @@ the shape written to KV just needs to match `{ generatedAt, items: [...] }`.
 - Both are plain JSON, so a non-developer can extend them without touching
   any component code.
 
+## Automatic daily content — two pipelines
+
+### 1. Chicago Daily (short news blurbs, fully automatic)
+
+`api/cron-refresh-daily-content.js` runs once a day, searches the web for
+current items in five categories (News, Food, Festivals, Entertainment,
+Schools), restricted to a named list of trusted Chicago sources (Block Club
+Chicago, Eater Chicago, Choose Chicago, CPS.edu, etc. — see the source list
+in the file), and writes short original summaries with source links
+straight to the live site. No human review step — these are short,
+clearly-attributed blurbs, not long-form content under a person's name.
+
+### 2. Chicago Stories (full articles, ghostwritten for Jason, review-gated)
+
+`api/cron-refresh-stories.js` runs once a day, picks the next neighborhood
+or suburb in rotation, searches the same trusted sources for something
+genuinely current about that place, and ghostwrites a 3-4 paragraph article
+in Jason Hinsley's established voice (the style guide is embedded directly
+in the prompt in that file).
+
+**This one does NOT publish automatically.** It writes a draft to a
+`stories-pending` queue in Vercel KV. A person has to review and approve it
+before it appears on the site. I built it this way deliberately:
+
+- These are full articles attributed to a real, named person (Jason
+  Hinsley, Founder & Designated Managing Broker) — not anonymous blurbs.
+- The model can still misstate a fact, mischaracterize a business, or
+  paraphrase a source more closely than intended.
+- Publishing unreviewed AI-written text under a real broker's name is a
+  real liability and trust issue, not just a technicality.
+
+**Reviewing drafts:**
+```
+GET /api/stories-pending?secret=YOUR_CRON_SECRET
+```
+Returns everything waiting for review — title, dek, full body, and which
+source (if any) it drew from.
+
+**Approving or rejecting:**
+```
+POST /api/approve-story
+{ "secret": "YOUR_CRON_SECRET", "slug": "the-draft-slug", "action": "approve" }
+```
+Use `"action": "reject"` to discard instead. On approve, you can also pass
+`photo` and `photoCredit` in the same request — the cron job intentionally
+leaves photo assignment to a human (same reasoning as the manual Wikimedia
+Commons sourcing used elsewhere in this project), so pick one before or
+during approval. If you skip it, a neutral skyline placeholder is used so
+the page doesn't break, but you should swap it.
+
+This is two API calls with a secret in them — not a real interface. If
+you're going to use this regularly, it's worth wrapping in a small internal
+page (a simple password-protected page that lists pending drafts with
+approve/reject buttons would take maybe an hour to build if you want it).
+
+**If you decide you want fully hands-off publishing anyway** — no review
+step at all — there's a one-line change noted directly in
+`cron-refresh-stories.js` that does it. I'd think carefully before flipping
+that, especially early on while you're still seeing what the model tends to
+get right or wrong for this use case.
+
+### 3. Initial content batch (already published, no review needed)
+
+To launch with real content on day one rather than waiting on the daily
+drip, `src/data/stories.json` now has 15 articles — the original 9 plus 6
+new ones covering suburbs specifically (Naperville, Arlington Heights, Oak
+Park, Hinsdale, Winnetka, plus Pilsen). These were written the same way the
+daily pipeline works — real trusted-source research, ghostwritten in
+Jason's voice — but reviewed and added directly as seed content rather than
+going through the pending queue, since that queue is for the ongoing daily
+drip, not a one-time launch batch. Same bar applies: verify anything
+time-sensitive (the Arlington Heights piece in particular references a
+June 2026 stadium decision) before it's live under Jason's name for good.
+
 ## Photography and editorial copy
 
 **Real photos, sourced from Wikimedia Commons:** 8 of the 42 neighborhoods/

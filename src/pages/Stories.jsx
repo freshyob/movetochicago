@@ -1,11 +1,23 @@
-import { useMemo, useState } from 'react'
-import stories from '../data/stories.json'
+import { useEffect, useMemo, useState } from 'react'
+import seedStories from '../data/stories.json'
 import StoryCard from '../components/StoryCard.jsx'
 
 export default function Stories() {
-  const types = useMemo(() => ['All', ...new Set(stories.map((s) => s.type))], [])
+  const [stories, setStories] = useState(seedStories)
   const [active, setActive] = useState('All')
 
+  useEffect(() => {
+    // /api/stories serves seed stories + any auto-generated, approved
+    // stories from the daily ghostwriting pipeline (see api/cron-refresh-stories.js).
+    // Falls back silently to the bundled seed list if the endpoint isn't
+    // deployed yet or KV isn't configured.
+    fetch('/api/stories')
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => setStories(data.stories || seedStories))
+      .catch(() => {})
+  }, [])
+
+  const types = useMemo(() => ['All', ...new Set(stories.map((s) => s.type))], [stories])
   const filtered = active === 'All' ? stories : stories.filter((s) => s.type === active)
 
   return (
