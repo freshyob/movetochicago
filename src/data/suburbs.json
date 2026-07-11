@@ -1,0 +1,293 @@
+[
+  {
+    "slug": "evanston",
+    "name": "Evanston",
+    "region": "North Shore",
+    "tags": [
+      "Walkable",
+      "Academic",
+      "Lakefront"
+    ],
+    "vibe": "Northwestern University's home, with a dense, walkable downtown and lakefront parks.",
+    "description": "Evanston is the North Shore's most urban suburb, combining Northwestern's campus, a Metra and CTA-connected downtown, and its own lakefront beaches, making it a common landing spot for people who want suburban schools without giving up walkability.",
+    "commute": "CTA Purple Line + Metra Union Pacific North, roughly 25-35 minutes to the Loop",
+    "schools": "Evanston Township High School (District 202); highly rated District 65 elementary schools",
+    "priceTier": "$$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Evanston%20Skyline%204.JPG?width=1200",
+    "photoCredit": "Downtown Evanston skyline, photo by Nutmegger, via Wikimedia Commons"
+  },
+  {
+    "slug": "wilmette",
+    "name": "Wilmette",
+    "region": "North Shore",
+    "tags": [
+      "Families",
+      "Top Schools",
+      "Lakefront"
+    ],
+    "vibe": "Classic North Shore suburb with the Baha'i Temple, top-rated schools, and lakefront beaches.",
+    "description": "Wilmette is a quintessential North Shore family suburb, known for New Trier High School's reputation, tree-lined streets, and Gillson Park's beach and harbor.",
+    "commute": "Metra Union Pacific North, roughly 30-40 minutes to the Loop",
+    "schools": "New Trier High School; District 39 elementary",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+  },
+  {
+    "slug": "winnetka-kenilworth",
+    "name": "Winnetka / Kenilworth",
+    "region": "North Shore",
+    "tags": [
+      "Luxury",
+      "Top Schools",
+      "Lakefront"
+    ],
+    "vibe": "Among the wealthiest suburbs in the country, with large lots and elite public schools.",
+    "description": "Winnetka and neighboring Kenilworth represent the top of the North Shore market, with large historic homes, extensive lakefront parks, and New Trier High School consistently ranked among the top public schools nationally.",
+    "commute": "Metra Union Pacific North, roughly 35-45 minutes to the Loop",
+    "schools": "New Trier High School",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+  },
+  {
+    "slug": "highland-park",
+    "name": "Highland Park",
+    "region": "North Shore",
+    "tags": [
+      "Families",
+      "Arts",
+      "Lakefront"
+    ],
+    "vibe": "Ravine-cut streets, Ravinia Festival's outdoor concerts, and a walkable downtown.",
+    "description": "Highland Park is known for the Ravinia Festival (the Chicago Symphony Orchestra's summer home), a mix of architecture from Prairie-style to contemporary, and a downtown with its own Metra stop.",
+    "commute": "Metra Union Pacific North, roughly 45-55 minutes to the Loop",
+    "schools": "Highland Park High School; District 112 elementary",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+  },
+  {
+    "slug": "oak-park",
+    "name": "Oak Park",
+    "region": "West / Near West",
+    "tags": [
+      "Walkable",
+      "Architecture",
+      "Diverse"
+    ],
+    "vibe": "The largest concentration of Frank Lloyd Wright buildings anywhere, and the closest walkable suburb to the city.",
+    "description": "Oak Park borders the city directly and offers CTA train service into the Loop, making it feel like an extension of the city while adding larger lots, its own school district, and the country's densest collection of Frank Lloyd Wright and Prairie School architecture.",
+    "commute": "CTA Green Line + Metra Union Pacific West, roughly 20-30 minutes to the Loop",
+    "schools": "Oak Park and River Forest High School; District 97 elementary",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Lloyd%20Wright%20Home%20and%20Studio%20%28front%20porch%29.JPG?width=1200",
+    "photoCredit": "Frank Lloyd Wright Home and Studio, via Wikimedia Commons"
+  },
+  {
+    "slug": "river-forest",
+    "name": "River Forest",
+    "region": "West / Near West",
+    "tags": [
+      "Families",
+      "Quiet",
+      "Architecture"
+    ],
+    "vibe": "Oak Park's quieter, more residential neighbor along the Des Plaines River.",
+    "description": "River Forest shares Oak Park's architectural pedigree and high school district but trades density for larger, quieter residential lots along the river.",
+    "commute": "Metra Union Pacific West, roughly 25-30 minutes to the Loop",
+    "schools": "Oak Park and River Forest High School",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+  },
+  {
+    "slug": "la-grange",
+    "name": "La Grange",
+    "region": "West / Near West",
+    "tags": [
+      "Walkable",
+      "Families",
+      "Downtown"
+    ],
+    "vibe": "A compact, walkable downtown with two Metra lines and a strong small-town feel.",
+    "description": "La Grange punches above its size with a genuinely walkable downtown of shops and restaurants, served by two separate Metra lines, making it popular with commuting families who still want a main-street feel.",
+    "commute": "Metra BNSF or Metra Heritage Corridor, roughly 25-30 minutes to the Loop",
+    "schools": "Lyons Township High School; District 102 / 105 elementary",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=1000&q=80"
+  },
+  {
+    "slug": "hinsdale",
+    "name": "Hinsdale",
+    "region": "West Suburbs",
+    "tags": [
+      "Luxury",
+      "Top Schools",
+      "Families"
+    ],
+    "vibe": "One of the western suburbs' most affluent communities, known for large lots and new construction teardowns.",
+    "description": "Hinsdale combines a historic downtown with a significant amount of new-construction luxury homes built on teardown lots, and is consistently ranked among the top school districts in Illinois.",
+    "commute": "Metra BNSF, roughly 30-35 minutes to the Loop",
+    "schools": "Hinsdale Central High School",
+    "priceTier": "$$$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Hinsdale%20Block.JPG?width=1200",
+    "photoCredit": "Downtown Hinsdale Historic District, photo by Teemu08, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  {
+    "slug": "naperville",
+    "name": "Naperville",
+    "region": "West Suburbs",
+    "tags": [
+      "Families",
+      "Top Schools",
+      "Master Planned"
+    ],
+    "vibe": "One of the largest and most amenity-rich suburbs in the country, with a Riverwalk downtown.",
+    "description": "Naperville is consistently ranked among the best places to raise a family nationally, with a park district-run Riverwalk, two top-rated high school districts, and enough scale to have its own restaurant and retail ecosystem separate from the city.",
+    "commute": "Metra BNSF, roughly 40-50 minutes to the Loop",
+    "schools": "Naperville Central / Naperville North High Schools",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "downers-grove",
+    "name": "Downers Grove",
+    "region": "West Suburbs",
+    "tags": [
+      "Value",
+      "Families",
+      "Walkable"
+    ],
+    "vibe": "A well-regarded, slightly more affordable alternative to Hinsdale and Naperville.",
+    "description": "Downers Grove offers strong schools and a walkable downtown at a lower price point than neighboring Hinsdale, drawing families who want the same commuter rail access without the premium.",
+    "commute": "Metra BNSF, roughly 35-40 minutes to the Loop",
+    "schools": "Downers Grove North / South High Schools",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+  },
+  {
+    "slug": "arlington-heights",
+    "name": "Arlington Heights",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Families",
+      "Value",
+      "Downtown"
+    ],
+    "vibe": "A walkable downtown built around its Metra station, plus the site of the former Arlington Park racetrack now slated for major redevelopment.",
+    "description": "Arlington Heights has one of the northwest suburbs' most successful transit-oriented downtowns, and is at the center of a major long-term redevelopment plan for the former Arlington International Racecourse site.",
+    "commute": "Metra Union Pacific Northwest, roughly 40-50 minutes to the Loop",
+    "schools": "Prospect / Rolling Meadows High Schools",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "schaumburg",
+    "name": "Schaumburg",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Shopping",
+      "Corporate",
+      "Value"
+    ],
+    "vibe": "A major retail and corporate hub anchored by Woodfield Mall.",
+    "description": "Schaumburg is one of the region's largest job and retail centers outside the city, home to Woodfield Mall and a large concentration of corporate offices, making it popular for buyers who work locally rather than commuting downtown.",
+    "commute": "Metra Milwaukee District West (nearby Schaumburg/Roselle stops), roughly 50-60 minutes to the Loop",
+    "schools": "Schaumburg / Hoffman Estates High Schools",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+  },
+  {
+    "slug": "park-ridge",
+    "name": "Park Ridge",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Families",
+      "Close-In",
+      "Airport Adjacent"
+    ],
+    "vibe": "One of the closest suburbs to the city and O'Hare, with a classic Midwestern downtown.",
+    "description": "Park Ridge borders the city and sits minutes from O'Hare, giving it an unusually short commute for a suburb along with a walkable downtown and strong schools.",
+    "commute": "Metra Union Pacific Northwest, roughly 30 minutes to the Loop",
+    "schools": "Maine South High School",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "elmhurst",
+    "name": "Elmhurst",
+    "region": "West Suburbs",
+    "tags": [
+      "Families",
+      "Downtown",
+      "Value"
+    ],
+    "vibe": "A leafy, close-in suburb with a compact downtown and its own art museum.",
+    "description": "Elmhurst sits close to O'Hare and the city, with a walkable downtown, the Elmhurst Art Museum, and consistently strong schools, at a lower price point than Hinsdale.",
+    "commute": "Metra Union Pacific West, roughly 30 minutes to the Loop",
+    "schools": "York Community High School",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+  },
+  {
+    "slug": "orland-park",
+    "name": "Orland Park",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Families",
+      "Value",
+      "Shopping"
+    ],
+    "vibe": "The southwest suburbs' commercial and residential hub, with newer housing stock than most Chicago suburbs.",
+    "description": "Orland Park offers relatively new housing stock, a large retail base, and a well-regarded park district, making it one of the most popular destinations for families relocating to the southwest suburbs.",
+    "commute": "Metra SouthWest Service, roughly 50-60 minutes to the Loop",
+    "schools": "Carl Sandburg / Victor J. Andrew High Schools",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "tinley-park-frankfort",
+    "name": "Tinley Park / Frankfort",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Value",
+      "Families",
+      "New Construction"
+    ],
+    "vibe": "Two of the fastest-growing southwest suburbs, with a steady supply of newer subdivisions.",
+    "description": "Tinley Park and Frankfort have seen significant new-construction growth over the past two decades, offering larger homes on larger lots than closer-in suburbs, at some of the best price-per-square-foot in the metro.",
+    "commute": "Metra Rock Island / SouthWest Service, roughly 55-65 minutes to the Loop",
+    "schools": "Lincoln-Way / Tinley Park High Schools",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+  },
+  {
+    "slug": "oak-lawn",
+    "name": "Oak Lawn",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Value",
+      "Close-In",
+      "Families"
+    ],
+    "vibe": "One of the closest southwest suburbs to the city, with an established, affordable housing stock.",
+    "description": "Oak Lawn offers one of the shorter commutes among southwest suburbs along with a large stock of well-established ranch and split-level homes at accessible price points.",
+    "commute": "Metra SouthWest Service, roughly 35-40 minutes to the Loop",
+    "schools": "Oak Lawn Community High School",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "homer-glen-lockport",
+    "name": "Homer Glen / Lockport",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Value",
+      "Space",
+      "Rural Feel"
+    ],
+    "vibe": "Larger lots and a more rural feel at the outer edge of the southwest suburbs, along the historic I&M Canal.",
+    "description": "Homer Glen and Lockport sit further from the city but offer noticeably larger lots and lower price points, with Lockport's historic downtown along the I&M Canal adding some small-town character.",
+    "commute": "Metra Heritage Corridor (limited schedule) or car commute, roughly 60+ minutes to the Loop",
+    "schools": "Lockport Township High School",
+    "priceTier": "$",
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+  }
+]

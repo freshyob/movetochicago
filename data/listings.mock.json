@@ -1,0 +1,80 @@
+[
+  {
+    "id": "mock-1",
+    "address": "1842 N Hoyne Ave, Chicago, IL",
+    "price": 749000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2600,
+    "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+    "neighborhood": "Wicker Park / Bucktown",
+    "suburb": null,
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  },
+  {
+    "id": "mock-2",
+    "address": "455 W Wrightwood Ave #6E, Chicago, IL",
+    "price": 429000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1350,
+    "photo": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+    "neighborhood": "Lincoln Park",
+    "suburb": null,
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  },
+  {
+    "id": "mock-3",
+    "address": "215 Forest Ave, Oak Park, IL",
+    "price": 615000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2450,
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+    "neighborhood": null,
+    "suburb": "Oak Park",
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  },
+  {
+    "id": "mock-4",
+    "address": "938 Home Ave, Oak Park, IL",
+    "price": 899000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3600,
+    "photo": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+    "neighborhood": null,
+    "suburb": "Oak Park",
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  },
+  {
+    "id": "mock-5",
+    "address": "3218 N Damen Ave #2, Chicago, IL",
+    "price": 519000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1800,
+    "photo": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+    "neighborhood": "Roscoe Village",
+    "suburb": null,
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  },
+  {
+    "id": "mock-6",
+    "address": "712 S Vine St, Hinsdale, IL",
+    "price": 1450000,
+    "beds": 5,
+    "baths": 5,
+    "sqft": 4800,
+    "photo": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+    "neighborhood": null,
+    "suburb": "Hinsdale",
+    "status": "Active",
+    "listingUrl": "https://www.remaxmetropolitanil.com"
+  }
+]

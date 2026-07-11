@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Six-pointed Chicago flag star, used sparingly as a structural marker */
+.chi-star {
+  display: inline-block;
+  color: #C8102E;
+}
+
+/* Hairline grid backdrop echoing Chicago's numbered street grid */
+.grid-backdrop {
+  background-image:
+    linear-gradient(to right, rgba(30,55,101,0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30,55,101,0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+:focus-visible {
+  outline: 3px solid #C8102E;
+  outline-offset: 2px;
+}

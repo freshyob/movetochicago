@@ -1,0 +1,37 @@
+{
+  "generatedAt": null,
+  "items": [
+    {
+      "id": "seed-1",
+      "category": "Festivals",
+      "headline": "Add Chicago's Festival Calendar Here",
+      "summary": "Once the daily content job is live, this card will surface the week's actual festivals and street fairs pulled from Choose Chicago's event calendar.",
+      "source": "Seed content",
+      "url": "https://www.choosechicago.com/events/"
+    },
+    {
+      "id": "seed-2",
+      "category": "Food",
+      "headline": "New Restaurant Openings",
+      "summary": "This card will surface recent restaurant openings and closings from Chicago food press once the daily job is connected.",
+      "source": "Seed content",
+      "url": "https://chicago.eater.com"
+    },
+    {
+      "id": "seed-3",
+      "category": "News",
+      "headline": "Local Chicago News",
+      "summary": "This card will surface top local Chicago headlines relevant to new residents (transit, weather, city services).",
+      "source": "Seed content",
+      "url": "https://blockclubchicago.org"
+    },
+    {
+      "id": "seed-4",
+      "category": "Schools",
+      "headline": "CPS and District Announcements",
+      "summary": "This card will surface Chicago Public Schools enrollment deadlines and announcements relevant to relocating families.",
+      "source": "Seed content",
+      "url": "https://www.cps.edu"
+    }
+  ]
+}

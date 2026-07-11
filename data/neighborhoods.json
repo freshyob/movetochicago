@@ -1,0 +1,466 @@
+[
+  {
+    "slug": "lincoln-park",
+    "name": "Lincoln Park",
+    "side": "North Side",
+    "tags": [
+      "Families",
+      "Young Professionals",
+      "Walkable"
+    ],
+    "vibe": "Tree-lined streets, the park and zoo it's named for, and a mix of vintage greystones and new construction.",
+    "description": "Lincoln Park is one of Chicago's most established North Side neighborhoods, anchored by the 1,200-acre park that runs along the lakefront. Expect a walkable mix of boutiques on Armitage, DePaul's campus energy, and some of the city's best-rated elementary schools.",
+    "transit": [
+      "Red Line (Fullerton, Armitage)",
+      "Brown Line",
+      "Lakefront Trail"
+    ],
+    "goodFor": "Families who want lakefront access without leaving the city, and young professionals who want walkability.",
+    "priceTier": "$$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Lincoln%20Park%20-%2001.jpg?width=1200",
+    "photoCredit": "Lincoln Park aerial view, via Wikimedia Commons"
+  },
+  {
+    "slug": "lakeview",
+    "name": "Lakeview",
+    "side": "North Side",
+    "tags": [
+      "Nightlife",
+      "Young Professionals",
+      "Sports"
+    ],
+    "vibe": "Wrigleyville energy, Boystown's nightlife, and quieter residential blocks the closer you get to the lake.",
+    "description": "Lakeview spans everything from the Cubs' Wrigley Field to the quieter, family-friendly blocks of West Lakeview and Southport Corridor. It is one of the densest and most transit-connected neighborhoods in the city.",
+    "transit": [
+      "Red Line",
+      "Brown Line",
+      "Purple Line Express"
+    ],
+    "goodFor": "Renters and first-time buyers who want density, nightlife, and easy transit downtown.",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wrigleyville%2C%20Chicago.jpg?width=1200",
+    "photoCredit": "Wrigleyville, Chicago, via Wikimedia Commons"
+  },
+  {
+    "slug": "wicker-park-bucktown",
+    "name": "Wicker Park / Bucktown",
+    "side": "North Side",
+    "tags": [
+      "Nightlife",
+      "Arts",
+      "Young Professionals"
+    ],
+    "vibe": "Chicago's answer to Williamsburg \u2014 converted warehouses, indie boutiques, and a serious restaurant and music scene.",
+    "description": "Once an industrial and artist enclave, Wicker Park and neighboring Bucktown are now among the most sought-after North Side neighborhoods, known for The 606 elevated trail, live music venues, and a dense restaurant row along Milwaukee Avenue.",
+    "transit": [
+      "Blue Line (Damen, Western)",
+      "The 606 Trail"
+    ],
+    "goodFor": "Buyers who want an urban, design-forward neighborhood with strong resale value.",
+    "priceTier": "$$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wicker%20Park%20Historic%20District%20A%20Chicago%20IL.jpg?width=1200",
+    "photoCredit": "Wicker Park Historic District, via Wikimedia Commons"
+  },
+  {
+    "slug": "logan-square",
+    "name": "Logan Square",
+    "side": "Northwest Side",
+    "tags": [
+      "Arts",
+      "Value",
+      "Families"
+    ],
+    "vibe": "Grand boulevards, greystone two-flats, and one of the city's best food scenes at a relative discount to Bucktown.",
+    "description": "Logan Square centers on a historic boulevard system with a namesake monument, and has become known for its farmers market, craft cocktail bars, and strong community identity. It still offers more space per dollar than neighborhoods closer to the lake.",
+    "transit": [
+      "Blue Line"
+    ],
+    "goodFor": "Buyers priced out of Bucktown who still want walkability and a food scene.",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/19990213%2045%20Logan%20Blvd.%20%40%20Logan%20Square%20%286652821731%29.jpg?width=1200",
+    "photoCredit": "Logan Boulevard at Logan Square, photo by SPUI, CC BY-SA, via Wikimedia Commons"
+  },
+  {
+    "slug": "andersonville",
+    "name": "Andersonville",
+    "side": "North Side",
+    "tags": [
+      "LGBTQ+ Friendly",
+      "Families",
+      "Quiet"
+    ],
+    "vibe": "A historic Swedish enclave turned one of the most welcoming, independent-business-heavy strips in the city.",
+    "description": "Andersonville retains a small-town, independent-business feel with Clark Street as its spine \u2014 bookstores, bakeries, and a well-known LGBTQ+ friendly community \u2014 while staying quieter and more residential than Lakeview to its south.",
+    "transit": [
+      "Red Line (Berwyn)",
+      "Bus corridors"
+    ],
+    "goodFor": "Buyers who want community feel and independent businesses over chains.",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Andersonville%2C%20Chicago.JPG?width=1200",
+    "photoCredit": "Andersonville Commercial Historic District, via Wikimedia Commons"
+  },
+  {
+    "slug": "edgewater",
+    "name": "Edgewater",
+    "side": "North Side",
+    "tags": [
+      "Lakefront",
+      "Value",
+      "Diverse"
+    ],
+    "vibe": "Chicago's most diverse neighborhood, with vintage lakefront high-rises at a discount to Lincoln Park.",
+    "description": "Edgewater offers some of the best lake access in the city, from Berger Park to the Edgewater beaches, in prewar and vintage buildings that cost meaningfully less than comparable units further south.",
+    "transit": [
+      "Red Line",
+      "Metra Union Pacific North"
+    ],
+    "goodFor": "Buyers who want lake views without Lincoln Park or Streeterville pricing.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+  },
+  {
+    "slug": "ravenswood-lincoln-square",
+    "name": "Ravenswood / Lincoln Square",
+    "side": "North Side",
+    "tags": [
+      "Families",
+      "German Heritage",
+      "Quiet"
+    ],
+    "vibe": "German-American roots, a walkable Old World square, and some of the best public schools on the North Side.",
+    "description": "Lincoln Square's namesake square retains its German-American heritage (the Chicago Brauhaus, Merz Apothecary), while Ravenswood's converted industrial corridor adds loft buildings and breweries. Both are known for strong CPS options.",
+    "transit": [
+      "Brown Line",
+      "Metra Union Pacific North"
+    ],
+    "goodFor": "Families prioritizing schools who still want walkable retail.",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+  },
+  {
+    "slug": "west-loop",
+    "name": "West Loop",
+    "side": "Central",
+    "tags": [
+      "Luxury",
+      "Nightlife",
+      "Young Professionals"
+    ],
+    "vibe": "Chicago's dining capital, converted meatpacking warehouses, and new-construction high-rises minutes from the Loop.",
+    "description": "The West Loop has transformed from meatpacking district to the city's premier restaurant row along Randolph and Fulton Market, now anchored by Google's Chicago office and a wave of luxury new-construction condos and lofts.",
+    "transit": [
+      "Green Line",
+      "Pink Line",
+      "Blue Line",
+      "Union Station"
+    ],
+    "goodFor": "Buyers who want a short commute downtown and new-construction finishes.",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80"
+  },
+  {
+    "slug": "river-north",
+    "name": "River North",
+    "side": "Central",
+    "tags": [
+      "Luxury",
+      "Nightlife",
+      "Downtown"
+    ],
+    "vibe": "Chicago's gallery district turned high-rise condo corridor, steps from Michigan Avenue.",
+    "description": "River North combines the Magnificent Mile's shopping, a dense concentration of high-rise condo towers, and the city's largest gallery district, making it a default landing spot for relocating professionals who want to be in the middle of everything.",
+    "transit": [
+      "Red Line",
+      "Brown Line",
+      "Merchandise Mart"
+    ],
+    "goodFor": "Relocating professionals who want walk-to-work convenience and building amenities.",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=1000&q=80"
+  },
+  {
+    "slug": "streeterville-gold-coast",
+    "name": "Streeterville / Gold Coast",
+    "side": "Central",
+    "tags": [
+      "Luxury",
+      "Lakefront",
+      "Downtown"
+    ],
+    "vibe": "Old-money Gold Coast mansions and doorman high-rises, right on the lake.",
+    "description": "The Gold Coast is Chicago's most historic high-end residential district, lined with landmark mansions off Astor Street, while neighboring Streeterville adds Northwestern's downtown campus and Navy Pier along the lakefront.",
+    "transit": [
+      "Red Line",
+      "Lakefront Trail"
+    ],
+    "goodFor": "Buyers prioritizing prestige, lake views, and full-amenity buildings.",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1000&q=80"
+  },
+  {
+    "slug": "south-loop",
+    "name": "South Loop / Printers Row",
+    "side": "Central",
+    "tags": [
+      "Value",
+      "Downtown",
+      "Families"
+    ],
+    "vibe": "Converted historic printing warehouses and new towers, with the museum campus and lakefront just south.",
+    "description": "The South Loop offers downtown proximity at a relative discount, with converted historic loft buildings in Printers Row, quick access to Grant Park and the Museum Campus, and a growing residential population near Roosevelt Road.",
+    "transit": [
+      "Red Line",
+      "Green Line",
+      "Orange Line"
+    ],
+    "goodFor": "Buyers who want downtown access without Gold Coast pricing.",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80"
+  },
+  {
+    "slug": "pilsen",
+    "name": "Pilsen",
+    "side": "Southwest Side",
+    "tags": [
+      "Arts",
+      "Latino Heritage",
+      "Value"
+    ],
+    "vibe": "The heart of Chicago's Mexican-American community, with murals, the National Museum of Mexican Art, and a fast-changing arts scene.",
+    "description": "Pilsen is one of the country's most significant Latino cultural neighborhoods, known for its street murals, family-owned taquerias, and a growing gallery and studio scene layered on top of that heritage.",
+    "transit": [
+      "Pink Line",
+      "18th Street"
+    ],
+    "goodFor": "Buyers seeking value and culture close to the West Loop and Illinois Medical District.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80"
+  },
+  {
+    "slug": "bridgeport",
+    "name": "Bridgeport",
+    "side": "South Side",
+    "tags": [
+      "Value",
+      "Families",
+      "Historic"
+    ],
+    "vibe": "A working-class Irish-Chicago political stronghold turned increasingly diverse, artist-friendly enclave.",
+    "description": "Bridgeport is one of Chicago's oldest neighborhoods, historically home to several Chicago mayors, now drawing artists and young families priced out of Pilsen with brick bungalows and quick access to Chinatown and Sox Park.",
+    "transit": [
+      "Orange Line",
+      "Red Line"
+    ],
+    "goodFor": "First-time buyers who want more space and lower price points near downtown.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=1000&q=80"
+  },
+  {
+    "slug": "hyde-park",
+    "name": "Hyde Park",
+    "side": "South Side",
+    "tags": [
+      "Families",
+      "Academic",
+      "Historic"
+    ],
+    "vibe": "The University of Chicago's home turf \u2014 Gothic quads, the Museum of Science and Industry, and the Obama Presidential Center.",
+    "description": "Hyde Park is anchored by the University of Chicago and its Gothic and Prairie-style architecture (including several Frank Lloyd Wright homes), with strong lakefront access at Promontory Point and a wave of new investment tied to the Obama Presidential Center.",
+    "transit": [
+      "Metra Electric",
+      "Bus corridors"
+    ],
+    "goodFor": "Academic families and buyers seeking classic architecture and lakefront value.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80"
+  },
+  {
+    "slug": "beverly",
+    "name": "Beverly / Morgan Park",
+    "side": "Far South Side",
+    "tags": [
+      "Families",
+      "Suburban Feel",
+      "Value"
+    ],
+    "vibe": "The city's hilliest neighborhood, full of century-old Prairie and Chicago-style bungalows on quiet, wide lots.",
+    "description": "Beverly sits on the Blue Island Ridge, the highest natural point in Chicago, and is known for its large historic homes (including several Frank Lloyd Wright and Walter Burley Griffin designs), strong parochial schools, and a suburban feel within city limits.",
+    "transit": [
+      "Metra Rock Island District",
+      "Metra SouthWest Service"
+    ],
+    "goodFor": "Families who want a larger lot and a quieter, suburban-feeling city neighborhood.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "avondale-jefferson-park",
+    "name": "Avondale / Jefferson Park",
+    "side": "Northwest Side",
+    "tags": [
+      "Value",
+      "Families",
+      "Commuter Friendly"
+    ],
+    "vibe": "Bungalow-belt neighborhoods with some of the city's best value for single-family homes.",
+    "description": "These Northwest Side neighborhoods are part of Chicago's bungalow belt, offering detached single-family homes with yards and garages at prices well below the North Side lakefront, with a direct CTA and Metra connection downtown.",
+    "transit": [
+      "Blue Line",
+      "Metra Union Pacific Northwest"
+    ],
+    "goodFor": "Buyers who want a detached home with a yard inside city limits.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+  },
+  {
+    "slug": "irving-park",
+    "name": "Irving Park / Old Irving Park",
+    "side": "Northwest Side",
+    "tags": [
+      "Families",
+      "Value",
+      "Historic"
+    ],
+    "vibe": "Century-old homes on large lots, a strong sense of community, and easy expressway access.",
+    "description": "Old Irving Park in particular is known for grand historic homes on oversized lots, drawing families who want more square footage and yard space than the North Side lakefront neighborhoods can offer at a similar price.",
+    "transit": [
+      "Blue Line",
+      "Metra Milwaukee District North"
+    ],
+    "goodFor": "Families wanting historic single-family homes with yards.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+  },
+  {
+    "slug": "portage-park-jefferson-park",
+    "name": "Portage Park",
+    "side": "Northwest Side",
+    "tags": [
+      "Families",
+      "Value"
+    ],
+    "vibe": "A classic bungalow-belt neighborhood built around one of the Chicago Park District's flagship parks.",
+    "description": "Portage Park offers one of the largest concentrations of Chicago bungalows in the city, centered on its namesake 36-acre park with a pool, fieldhouse, and mature tree canopy.",
+    "transit": [
+      "Blue Line",
+      "Bus corridors"
+    ],
+    "goodFor": "Buyers who want a classic bungalow and a big neighborhood park.",
+    "priceTier": "$",
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+  },
+  {
+    "slug": "rogers-park",
+    "name": "Rogers Park",
+    "side": "Far North Side",
+    "tags": [
+      "Diverse",
+      "Value",
+      "Lakefront"
+    ],
+    "vibe": "The city's most linguistically diverse neighborhood, with cheap lakefront access and Loyola's campus.",
+    "description": "Chicago's northernmost lakefront neighborhood, Rogers Park is known for its diversity, Loyola University's campus, and some of the most affordable lakefront vintage buildings in the city.",
+    "transit": [
+      "Red Line",
+      "Purple Line",
+      "Metra Union Pacific North"
+    ],
+    "goodFor": "Buyers who want lake access on a budget.",
+    "priceTier": "$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+  },
+  {
+    "slug": "bronzeville",
+    "name": "Bronzeville",
+    "side": "South Side",
+    "tags": [
+      "Historic",
+      "Arts",
+      "Value"
+    ],
+    "vibe": "The historic heart of Black Chicago, with a wave of restoration bringing back its landmark greystones.",
+    "description": "Bronzeville was the center of Chicago's Black Renaissance in the early 20th century, home to jazz and blues legends, and is now seeing significant reinvestment in its landmark greystone rowhouses and boulevards.",
+    "transit": [
+      "Green Line",
+      "Red Line"
+    ],
+    "goodFor": "Buyers seeking historic architecture and strong long-term appreciation potential.",
+    "priceTier": "$",
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+  },
+  {
+    "slug": "united-center-near-west",
+    "name": "Near West Side / United Center",
+    "side": "West Side",
+    "tags": [
+      "Value",
+      "New Construction"
+    ],
+    "vibe": "New townhome and condo development spreading west from the United Center.",
+    "description": "The area around the United Center has seen a wave of new-construction townhomes, extending the West Loop's growth further west at a lower price point.",
+    "transit": [
+      "Blue Line",
+      "Pink Line"
+    ],
+    "goodFor": "Buyers who want new construction close to the West Loop at a lower price.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1000&q=80"
+  },
+  {
+    "slug": "old-town",
+    "name": "Old Town",
+    "side": "Central",
+    "tags": [
+      "Historic",
+      "Families",
+      "Nightlife"
+    ],
+    "vibe": "Cobblestone-adjacent charm, Second City's home turf, and some of the city's best-preserved 19th-century cottages.",
+    "description": "Old Town is one of Chicago's few neighborhoods with intact 19th-century workers' cottages, alongside the Second City comedy club and easy access to both Lincoln Park and River North.",
+    "transit": [
+      "Brown Line",
+      "Red Line"
+    ],
+    "goodFor": "Buyers who want historic character between Lincoln Park and downtown.",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=1000&q=80"
+  },
+  {
+    "slug": "north-center-roscoe-village",
+    "name": "North Center / Roscoe Village",
+    "side": "North Side",
+    "tags": [
+      "Families",
+      "Schools",
+      "Quiet"
+    ],
+    "vibe": "Chicago's highest-rated CPS elementary school district, with a village-like retail strip.",
+    "description": "North Center consistently ranks among Chicago's top neighborhoods for families thanks to strong CPS options, low crime, and Roscoe Village's walkable strip of local shops and restaurants.",
+    "transit": [
+      "Brown Line"
+    ],
+    "goodFor": "Families whose top priority is public school quality within city limits.",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+  },
+  {
+    "slug": "albany-park",
+    "name": "Albany Park",
+    "side": "Northwest Side",
+    "tags": [
+      "Diverse",
+      "Value",
+      "Families"
+    ],
+    "vibe": "One of the most globally diverse zip codes in the country, along the North Branch of the Chicago River.",
+    "description": "Albany Park is famous for its diversity \u2014 dozens of languages are spoken in its schools \u2014 and offers some of the best value for multi-unit and single-family homes on the North Side.",
+    "transit": [
+      "Brown Line",
+      "Metra Union Pacific Northwest"
+    ],
+    "goodFor": "Investors and owner-occupants looking at two- and three-flats.",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+  }
+]
