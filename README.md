@@ -185,17 +185,23 @@ so partially-filled places don't show empty boxes):
   invented. If you can't find a verifiable ranking for a place, leave this
   field out rather than guessing.
 
-**Current coverage** (updated): 16 of 24 neighborhoods and 5 of 18 suburbs have
-real, verified Wikimedia Commons photos (up from 5 and 3 at the last check-in).
-16 of 24 neighborhoods and 6 of 18 suburbs have enrichment facts. Still
-outstanding: 8 neighborhoods (Avondale/Jefferson Park, Irving Park, Portage
-Park, Rogers Park, Near West Side/United Center, Old Town, North Center/
-Roscoe Village, Albany Park) and 13 suburbs (Wilmette, Winnetka/Kenilworth
-still needs a photo specifically, Highland Park, River Forest, La Grange,
-Downers Grove, Schaumburg, Park Ridge, Elmhurst, Orland Park, Tinley Park/
-Frankfort, Oak Lawn, Homer Glen/Lockport) — these still show generic
-Unsplash placeholders and no fact sections. Same method as above finishes
-them.
+**Current coverage**: Complete. All 24 neighborhoods and all 18 suburbs now
+have real, verified Wikimedia Commons photos and researched enrichment
+facts (famous residents, fun facts, distance from the Loop, popular
+restaurants/bars where applicable, and verified rankings where they
+genuinely exist). Every photo was checked against the specific place it's
+attached to — a few near-misses were caught and avoided along the way
+(e.g., a same-named "Roscoe Village" in Coshocton, Ohio kept surfacing for
+North Center/Roscoe Village searches and was deliberately not used).
+
+To extend this further (e.g. adding more famous residents or facts to an
+already-covered place), the method that worked well: search `"[place
+name] Chicago Wikipedia"` for the "Notable people" section, then a
+separate search like `"[place name] best place to live ranking"` for
+anything ranking-worthy — only include a ranking with a real, named, dated
+source. For photos, search `"commons.wikimedia.org Category [place
+name] Chicago"` (or `Illinois` for suburbs) and verify the filename's own
+category tags actually match the intended place before using it.
 
 **Recent news per place**: `api/cron-refresh-neighborhood-news.js` runs
 once a day, rotates to the next neighborhood or suburb (all 42, one per

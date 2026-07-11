@@ -35,7 +35,16 @@
     "commute": "Metra Union Pacific North, roughly 30-40 minutes to the Loop",
     "schools": "New Trier High School; District 39 elementary",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Bah%C3%A1%CA%BC%C3%AD%20House%20of%20Worship.jpg?width=1200",
+    "photoCredit": "Bah\u00e1'\u00ed House of Worship, Wilmette, via Wikimedia Commons",
+    "famousResidents": [
+      "James L. Kraft \u2014 founder of Kraft Foods"
+    ],
+    "funFacts": [
+      "Home to the Bah\u00e1'\u00ed House of Worship for North America \u2014 the only Bah\u00e1'\u00ed temple on the continent, drawing about 250,000 visitors a year and named one of the \"Seven Wonders of Illinois.\"",
+      "The village is named for Antoine Ouilmette, a French-Canadian fur trader who was awarded 1,280 acres of land here and in Evanston in 1829."
+    ],
+    "distanceFromLoop": "About 14 miles north of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra Union Pacific North"
   },
   {
     "slug": "winnetka-kenilworth",
@@ -51,19 +60,21 @@
     "commute": "Metra Union Pacific North, roughly 35-45 minutes to the Loop",
     "schools": "New Trier High School",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2015-05-11%2006%2040%2059%20View%20southeast%20from%20in%20front%20of%20the%20%22Home%20Alone%22%20house%20at%20671%20Lincoln%20Avenue%20in%20Winnetka%2C%20Illinois.jpg?width=1200",
     "famousResidents": [
       "Ann-Margret \u2014 actress, New Trier High School alumna",
       "Ivan Albright \u2014 painter and printmaker, New Trier High School alumnus"
     ],
     "funFacts": [
       "The house used as the McCallister family home in Home Alone (1990) is a real private residence on Lincoln Avenue.",
-      "Winnetka's median household income exceeded $250,000 in 2023."
+      "Winnetka's median household income exceeded $250,000 in 2023.",
+      "Martin Luther King Jr. spoke on Winnetka's Village Green in 1965 as part of the North Shore Summer Project; a plaque there commemorates the visit."
     ],
     "rankings": [
       "2nd-richest place in Illinois \u2014 Bloomberg's Richest Places Annual Index, 2019"
     ],
-    "distanceFromLoop": "About 16 miles north of the Loop \u2014 roughly 30-35 minutes by car, 35-45 minutes via Metra Union Pacific North"
+    "distanceFromLoop": "About 16 miles north of the Loop \u2014 roughly 30-35 minutes by car, 35-45 minutes via Metra Union Pacific North",
+    "photoCredit": "671 Lincoln Avenue, the real Home Alone house, via Wikimedia Commons"
   },
   {
     "slug": "highland-park",
@@ -79,7 +90,16 @@
     "commute": "Metra Union Pacific North, roughly 45-55 minutes to the Loop",
     "schools": "Highland Park High School; District 112 elementary",
     "priceTier": "$$$$",
-    "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ravinia%2C%20Highland%20Park%2C%20IL.jpg?width=1200",
+    "photoCredit": "Ravinia, Highland Park, via Wikimedia Commons",
+    "famousResidents": [
+      "Michael Jordan, Scottie Pippen, and Toni Kukoc \u2014 lived in Highland Park during the Bulls' 1990s championship era"
+    ],
+    "funFacts": [
+      "Ravinia Festival, an outdoor music venue in Highland Park, has been the summer home of the Chicago Symphony Orchestra since 1936 and is the oldest outdoor music festival in North America.",
+      "The National Register of Historic Places lists several Frank Lloyd Wright-designed homes in Highland Park, including the Willits House."
+    ],
+    "distanceFromLoop": "About 25 miles north of the Loop \u2014 roughly 40-45 minutes by car, 55-60 minutes via Metra Union Pacific North"
   },
   {
     "slug": "oak-park",
@@ -120,7 +140,13 @@
     "commute": "Metra Union Pacific West, roughly 25-30 minutes to the Loop",
     "schools": "Oak Park and River Forest High School",
     "priceTier": "$$$$",
-    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chauncey%20L%20Williams%20House%20Front.jpg?width=1200",
+    "photoCredit": "Chauncey Williams House, River Forest, via Wikimedia Commons",
+    "funFacts": [
+      "Home to two universities, Dominican University and Concordia University Chicago.",
+      "The Winslow House, Frank Lloyd Wright's first independent commission, was built in River Forest in 1894."
+    ],
+    "distanceFromLoop": "About 10 miles west of the Loop \u2014 roughly 20-25 minutes by car, 30 minutes via Metra Union Pacific West"
   },
   {
     "slug": "la-grange",
@@ -136,7 +162,16 @@
     "commute": "Metra BNSF or Metra Heritage Corridor, roughly 25-30 minutes to the Loop",
     "schools": "Lyons Township High School; District 102 / 105 elementary",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Grange%2C%20Illinois%20Village%20Hall.jpg?width=1200",
+    "photoCredit": "La Grange Village Hall, via Wikimedia Commons",
+    "famousResidents": [
+      "Sarah Wayne Callies \u2014 actress (Prison Break, The Walking Dead)"
+    ],
+    "funFacts": [
+      "The La Grange Pet Parade has run every year since 1947 and draws thousands of spectators and their pets through downtown.",
+      "Frank Lloyd Wright designed a \"bootleg house\" in La Grange \u2014 one of several secret commissions he took on early in his career while contractually restricted to working only for his employer, architect Louis Sullivan."
+    ],
+    "distanceFromLoop": "About 13 miles west of the Loop \u2014 roughly 25-30 minutes by car, 30-35 minutes via Metra BNSF"
   },
   {
     "slug": "hinsdale",
@@ -204,7 +239,15 @@
     "commute": "Metra BNSF, roughly 35-40 minutes to the Loop",
     "schools": "Downers Grove North / South High Schools",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Downers%20Grove%20Station%20Il.%20%285388093896%29.jpg?width=1200",
+    "photoCredit": "Downers Grove Metra station, via Wikimedia Commons",
+    "famousResidents": [
+      "Bob Bryar \u2014 drummer for My Chemical Romance"
+    ],
+    "funFacts": [
+      "The Tivoli, built in 1928, was the first theater in DuPage County to show \"talkies\" and still plays its original Wurlitzer theater organ before weekend evening screenings."
+    ],
+    "distanceFromLoop": "About 20 miles west of the Loop \u2014 roughly 30-40 minutes by car, 45-55 minutes via Metra BNSF"
   },
   {
     "slug": "arlington-heights",
@@ -242,7 +285,16 @@
     "commute": "Metra Milwaukee District West (nearby Schaumburg/Roselle stops), roughly 50-60 minutes to the Loop",
     "schools": "Schaumburg / Hoffman Estates High Schools",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Schaumburg%20Station%20001.jpg?width=1200",
+    "photoCredit": "Schaumburg Metra station, via Wikimedia Commons",
+    "famousResidents": [
+      "Susan Downey \u2014 film producer, wife of Robert Downey Jr.",
+      "Raja Krishnamoorthi \u2014 U.S. Congressman"
+    ],
+    "funFacts": [
+      "Woodfield Mall, which opened in 1971, is the largest shopping mall in Illinois and draws more than 27 million visitors a year."
+    ],
+    "distanceFromLoop": "About 28 miles northwest of the Loop \u2014 roughly 40-45 minutes by car, 55-65 minutes via Metra Milwaukee District West"
   },
   {
     "slug": "park-ridge",
@@ -258,7 +310,16 @@
     "commute": "Metra Union Pacific Northwest, roughly 30 minutes to the Loop",
     "schools": "Maine South High School",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkRidgePickwick.jpg?width=1200",
+    "photoCredit": "Pickwick Theatre, Park Ridge, via Wikimedia Commons",
+    "famousResidents": [
+      "Hillary Rodham Clinton \u2014 grew up in Park Ridge, graduated Maine South High School",
+      "Harrison Ford \u2014 attended high school in Park Ridge"
+    ],
+    "funFacts": [
+      "The Art Deco Pickwick Theatre, built in 1928 and listed on the National Register of Historic Places since 1975, was the backdrop for the opening credits of Gene Siskel and Roger Ebert's At the Movies in the 1980s."
+    ],
+    "distanceFromLoop": "About 17 miles northwest of the Loop \u2014 roughly 30-35 minutes by car, 40-45 minutes via Metra Union Pacific Northwest"
   },
   {
     "slug": "elmhurst",
@@ -274,7 +335,13 @@
     "commute": "Metra Union Pacific West, roughly 30 minutes to the Loop",
     "schools": "York Community High School",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Butterfield%20Park%2C%20Elmhurst%2C%20IL.%20Elmhurst%20Water%20Tower%20-%20panoramio.jpg?width=1200",
+    "photoCredit": "Elmhurst Water Tower, Butterfield Park, via Wikimedia Commons",
+    "funFacts": [
+      "The annual Elmhurst St. Patrick's Day Parade is the third-largest parade of its kind in the Chicago area.",
+      "Elmhurst University (organized in 1871 as Elmhurst College) sits on land donated by Thomas Barbour Bryan, sometimes called the \"Father of Elmhurst.\""
+    ],
+    "distanceFromLoop": "About 16 miles west of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra Union Pacific West"
   },
   {
     "slug": "orland-park",
@@ -290,7 +357,12 @@
     "commute": "Metra SouthWest Service, roughly 50-60 minutes to the Loop",
     "schools": "Carl Sandburg / Victor J. Andrew High Schools",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Orland%20Park%20Station-153rd%20Street.jpg?width=1200",
+    "photoCredit": "Orland Park Metra station, via Wikimedia Commons",
+    "funFacts": [
+      "Orland Park is sometimes called the \"World's Golf Center\" \u2014 village lore counts over 1,000 golf holes within a 15-mile radius."
+    ],
+    "distanceFromLoop": "About 25 miles southwest of the Loop \u2014 roughly 35-40 minutes by car, 50-60 minutes via Metra SouthWest Service"
   },
   {
     "slug": "tinley-park-frankfort",
@@ -306,7 +378,14 @@
     "commute": "Metra Rock Island / SouthWest Service, roughly 55-65 minutes to the Loop",
     "schools": "Lincoln-Way / Tinley Park High Schools",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinley%20Park%2C%20Ill..JPG?width=1200",
+    "photoCredit": "Tinley Park Metra station, via Wikimedia Commons",
+    "funFacts": [
+      "Named in 1890 for Samuel Tinley Sr., the first station agent of the local railroad depot; originally founded in 1853 as \"Bremen.\"",
+      "BusinessWeek named Tinley Park the Best Place to Raise a Family in America in 2009.",
+      "Ironite, a waterproofing additive later used in the construction of the Hoover Dam, was invented and manufactured in Tinley Park."
+    ],
+    "distanceFromLoop": "About 26 miles southwest of the Loop \u2014 roughly 40-45 minutes by car, 55-65 minutes via Metra Rock Island District"
   },
   {
     "slug": "oak-lawn",
@@ -322,7 +401,13 @@
     "commute": "Metra SouthWest Service, roughly 35-40 minutes to the Loop",
     "schools": "Oak Lawn Community High School",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/West%2095th%20Street%2C%20Oak%20Lawn%2C%20Illinois%20%287993005951%29.jpg?width=1200",
+    "photoCredit": "West 95th Street, downtown Oak Lawn, via Wikimedia Commons",
+    "funFacts": [
+      "Home to Advocate Christ Medical Center, one of Illinois's largest hospitals and a Level I trauma center that treats more emergency patients than any other hospital in the state.",
+      "On April 21, 1967, Oak Lawn was struck by one of the deadliest tornadoes in Illinois history, cutting a roughly 16-mile path of destruction through the village."
+    ],
+    "distanceFromLoop": "About 15 miles southwest of the Loop \u2014 roughly 25-30 minutes by car, 40-45 minutes via Metra SouthWest Service"
   },
   {
     "slug": "homer-glen-lockport",
@@ -338,6 +423,12 @@
     "commute": "Metra Heritage Corridor (limited schedule) or car commute, roughly 60+ minutes to the Loop",
     "schools": "Lockport Township High School",
     "priceTier": "$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago%20drainage%20canal%20%26%20controlling%20works%2C%20Lockport%2C%20Illinois.jpg?width=1200",
+    "photoCredit": "The historic drainage canal at Lockport, via Wikimedia Commons",
+    "funFacts": [
+      "Lockport was the headquarters of the Illinois and Michigan Canal, and takes its name from the canal's Lock No. 1, still visible downtown.",
+      "The Lockport Historic District includes 59 buildings, most built of locally quarried limestone, including the 1838 Gaylord Building, now a restaurant and museum."
+    ],
+    "distanceFromLoop": "About 30 miles southwest of the Loop \u2014 roughly 45-55 minutes by car (Lockport); Homer Glen is a few miles further west with no rail service, car-dependent"
   }
 ]

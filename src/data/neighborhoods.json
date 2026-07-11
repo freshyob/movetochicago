@@ -453,7 +453,16 @@
     ],
     "goodFor": "Buyers who want a detached home with a yard inside city limits.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago%2C%20IL%20Basilica%20of%20St.%20Hyacinth.jpg?width=1200",
+    "photoCredit": "Basilica of St. Hyacinth, Avondale, via Wikimedia Commons",
+    "funFacts": [
+      "Time Out ranked Avondale the world's 5th coolest neighborhood in 2025 \u2014 the highest of any U.S. neighborhood on the list.",
+      "The Basilica of St. Hyacinth, in the area known as \"Jackowo,\" is considered the center of Chicago's Polish community and has hosted visits from Polish Nobel Peace Prize winner Lech Wa\u0142\u0119sa."
+    ],
+    "distanceFromLoop": "About 6 miles northwest of the Loop \u2014 roughly 15-20 minutes by car, 30 minutes via the Blue Line",
+    "famousResidents": [
+      "Vivian Maier \u2014 photographer who achieved posthumous fame, took many photos in Avondale's Polish Village"
+    ]
   },
   {
     "slug": "irving-park",
@@ -472,7 +481,13 @@
     ],
     "goodFor": "Families wanting historic single-family homes with yards.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Villa%20Historic%20District%203.JPG?width=1200",
+    "photoCredit": "The Villa District, Irving Park, via Wikimedia Commons",
+    "funFacts": [
+      "Named after author Washington Irving.",
+      "The Villa District, a National Register-listed enclave of 1902-era Prairie and Craftsman-style bungalows, was nicknamed the \"Polish Kenilworth\" by columnist Mike Royko."
+    ],
+    "distanceFromLoop": "About 7 miles northwest of the Loop \u2014 roughly 20 minutes by car, 30 minutes via the Blue Line"
   },
   {
     "slug": "portage-park-jefferson-park",
@@ -490,7 +505,12 @@
     ],
     "goodFor": "Buyers who want a classic bungalow and a big neighborhood park.",
     "priceTier": "$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portage%20Theater.jpg?width=1200",
+    "photoCredit": "Portage Theater, Portage Park, via Wikimedia Commons",
+    "funFacts": [
+      "The Portage Theater, a 1920 movie palace on Milwaukee Avenue, is a Chicago Landmark and one of the city's last surviving neighborhood movie palaces."
+    ],
+    "distanceFromLoop": "About 9 miles northwest of the Loop \u2014 roughly 20-25 minutes by car, 35 minutes via the Blue Line"
   },
   {
     "slug": "rogers-park",
@@ -563,7 +583,13 @@
     ],
     "goodFor": "Buyers who want new construction close to the West Loop at a lower price.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Center%2C%20Chicago.JPG?width=1200",
+    "photoCredit": "United Center, Near West Side, via Wikimedia Commons",
+    "funFacts": [
+      "The United Center \u2014 nicknamed \"The Madhouse on Madison\" after its predecessor, Chicago Stadium \u2014 is the largest arena in the U.S. by physical size and hosted the 2024 Democratic National Convention.",
+      "A bronze statue of Michael Jordan, titled \"The Spirit,\" stands outside the arena's east entrance."
+    ],
+    "distanceFromLoop": "About 2 miles west of the Loop \u2014 roughly 10 minutes by car, 15-20 minutes via the Pink or Green Line"
   },
   {
     "slug": "old-town",
@@ -608,7 +634,16 @@
     ],
     "goodFor": "Families whose top priority is public school quality within city limits.",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20130914%2001%20CTA%20Brown%20Line%20L%20%40%20Southport.jpg?width=1200",
+    "photoCredit": "Southport Brown Line station, North Center/Roscoe Village, via Wikimedia Commons",
+    "famousResidents": [
+      "Steve Wilkos \u2014 television personality, childhood resident of Roscoe Village"
+    ],
+    "funFacts": [
+      "Known historically as \"Bricktown\" for its clay pits and brickyards, which supplied the fireproof brick required citywide after the Great Chicago Fire of 1871.",
+      "Roscoe Village sits on the former site of Riverview Park (1904-1967), once billed as the world's largest amusement park."
+    ],
+    "distanceFromLoop": "About 6 miles north of the Loop \u2014 roughly 15-20 minutes by car, 25-30 minutes via the Brown Line"
   },
   {
     "slug": "albany-park",
@@ -627,6 +662,17 @@
     ],
     "goodFor": "Investors and owner-occupants looking at two- and three-flats.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1580216643062-cf460548a66a?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Field%20Park%20-%20Chicago%20-%20Field%20House1.JPG?width=1200",
+    "photoCredit": "Eugene Field Park fieldhouse, Albany Park, via Wikimedia Commons",
+    "famousResidents": [
+      "Rod and Patti Blagojevich \u2014 former Illinois Governor and First Lady, longtime Albany Park residents",
+      "Neil Bluhm \u2014 billionaire real estate and casino magnate, childhood resident",
+      "Nancy Faust \u2014 Chicago White Sox organist, 1970-2010"
+    ],
+    "funFacts": [
+      "A stretch of Lawrence Avenue is officially nicknamed \"Seoul Drive\" for its concentration of Korean-owned businesses.",
+      "Eugene Field Park's Tudor Revival fieldhouse, designed by Clarence Hatzfeld in 1928, was listed on the National Register of Historic Places in 2006."
+    ],
+    "distanceFromLoop": "About 8 miles northwest of the Loop \u2014 roughly 20-25 minutes by car, 30 minutes via the Brown Line"
   }
 ]
