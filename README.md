@@ -185,17 +185,17 @@ so partially-filled places don't show empty boxes):
   invented. If you can't find a verifiable ranking for a place, leave this
   field out rather than guessing.
 
-**Current coverage**: 10 of 24 neighborhoods and 6 of 18 suburbs have this
-filled in with real, sourced facts (Lincoln Park, Wicker Park/Bucktown,
-Logan Square, Andersonville, Beverly, Bronzeville, Hyde Park, Pilsen,
-Lakeview, West Loop; Evanston, Oak Park, Naperville, Hinsdale, Winnetka/
-Kenilworth, Arlington Heights). The rest still work fine — those sections
-just don't render for them yet. To fill in the remaining ones, the method
-that worked well: search `"[place name] Chicago Wikipedia"` for the
-"Notable people" section (a great, well-sourced start for famous
-residents and fun facts), then a separate search like `"[place name] best
-place to live ranking"` for anything ranking-worthy — and only include a
-ranking if you find a real, named, dated source for it.
+**Current coverage** (updated): 16 of 24 neighborhoods and 5 of 18 suburbs have
+real, verified Wikimedia Commons photos (up from 5 and 3 at the last check-in).
+16 of 24 neighborhoods and 6 of 18 suburbs have enrichment facts. Still
+outstanding: 8 neighborhoods (Avondale/Jefferson Park, Irving Park, Portage
+Park, Rogers Park, Near West Side/United Center, Old Town, North Center/
+Roscoe Village, Albany Park) and 13 suburbs (Wilmette, Winnetka/Kenilworth
+still needs a photo specifically, Highland Park, River Forest, La Grange,
+Downers Grove, Schaumburg, Park Ridge, Elmhurst, Orland Park, Tinley Park/
+Frankfort, Oak Lawn, Homer Glen/Lockport) — these still show generic
+Unsplash placeholders and no fact sections. Same method as above finishes
+them.
 
 **Recent news per place**: `api/cron-refresh-neighborhood-news.js` runs
 once a day, rotates to the next neighborhood or suburb (all 42, one per

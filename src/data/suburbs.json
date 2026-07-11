@@ -173,7 +173,7 @@
     "commute": "Metra BNSF, roughly 40-50 minutes to the Loop",
     "schools": "Naperville Central / Naperville North High Schools",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bridge%20at%20the%20Riverwalk%2C%20Naperville%20IL.jpg?width=1200",
     "famousResidents": [
       "Evan Lysacek \u2014 Olympic gold medalist figure skater",
       "Candace Parker \u2014 WNBA champion and Olympic gold medalist",
@@ -187,7 +187,8 @@
       "Best Public Schools in America \u2014 Niche.com",
       "No. 16, Best Places to Live \u2014 Money Magazine, 2022"
     ],
-    "distanceFromLoop": "About 28 miles west of the Loop \u2014 roughly 40-50 minutes by car, 60-70 minutes via Metra BNSF"
+    "distanceFromLoop": "About 28 miles west of the Loop \u2014 roughly 40-50 minutes by car, 60-70 minutes via Metra BNSF",
+    "photoCredit": "Naperville Riverwalk, via Wikimedia Commons"
   },
   {
     "slug": "downers-grove",

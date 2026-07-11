@@ -162,7 +162,13 @@
     ],
     "goodFor": "Buyers who want lake views without Lincoln Park or Streeterville pricing.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgewater%20Beach%20Chicago.JPG?width=1200",
+    "photoCredit": "Edgewater lakefront, via Wikimedia Commons",
+    "funFacts": [
+      "The Edgewater Beach Hotel (1916-1970) hosted celebrities including Nat King Cole, Bette Davis, Marilyn Monroe, and Babe Ruth; its pink apartment-building twin still stands.",
+      "Edgewater was rated one of the ten gayest neighborhoods in America by Trulia in 2012."
+    ],
+    "distanceFromLoop": "About 6 miles north of the Loop \u2014 roughly 20 minutes by car, 30 minutes via the Red Line"
   },
   {
     "slug": "ravenswood-lincoln-square",
@@ -181,7 +187,13 @@
     ],
     "goodFor": "Families prioritizing schools who still want walkable retail.",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Meyer-Delicatessen-Lincoln-Square-Chicago.jpg?width=1200",
+    "photoCredit": "Lincoln Square storefront, via Wikimedia Commons",
+    "funFacts": [
+      "Rosehill Cemetery, on Ravenswood's north end, is a 350-acre Victorian-era cemetery founded in 1859 with veterans from every American war going back to the Revolutionary War.",
+      "Home to the flagship campus of the Old Town School of Folk Music, one of the country's largest community music schools."
+    ],
+    "distanceFromLoop": "About 7 miles north of the Loop \u2014 roughly 20 minutes by car, 30 minutes via the Brown Line"
   },
   {
     "slug": "west-loop",
@@ -202,7 +214,7 @@
     ],
     "goodFor": "Buyers who want a short commute downtown and new-construction finishes.",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fulton%20Market%2C%20West%20Loop%20%2847090474824%29.jpg?width=1200",
     "funFacts": [
       "Randolph Street's 'Restaurant Row' has one of the highest concentrations of Michelin-starred restaurants of any neighborhood in the country.",
       "Google's Chicago offices and the former Harpo Studios helped anchor the neighborhood's redevelopment from its meatpacking-era industrial roots."
@@ -225,7 +237,8 @@
         "name": "Green Street Smoked Meats",
         "type": "Restaurant"
       }
-    ]
+    ],
+    "photoCredit": "Fulton Market, West Loop, via Wikimedia Commons"
   },
   {
     "slug": "river-north",
@@ -245,7 +258,12 @@
     ],
     "goodFor": "Relocating professionals who want walk-to-work convenience and building amenities.",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/River%20North%20Neighborhood%2C%20Chicago%2C%20Illinois%20%289179467587%29.jpg?width=1200",
+    "photoCredit": "River North, via Wikimedia Commons",
+    "funFacts": [
+      "Once Chicago's main warehouse and gallery district, River North now has the highest concentration of art galleries in the city outside the Loop."
+    ],
+    "distanceFromLoop": "About 1 mile north of the Loop \u2014 roughly 5 minutes by car, walkable, or one stop via the Red Line"
   },
   {
     "slug": "streeterville-gold-coast",
@@ -264,7 +282,14 @@
     ],
     "goodFor": "Buyers prioritizing prestige, lake views, and full-amenity buildings.",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago%20Architecture%20-%20Gold%20Coast%20Neighborhood%20-%20Chicago%20-%20Illinois%20-%20USA%20-%2004.jpg?width=1200",
+    "photoCredit": "Gold Coast architecture, via Wikimedia Commons",
+    "famousResidents": [],
+    "funFacts": [
+      "As of 2011, the Gold Coast ranked as the seventh-richest urban neighborhood in the United States, with a median household income over $153,000.",
+      "Streeterville is named for Captain George \"Cap\" Streeter, a squatter who ran his boat aground on a sandbar in 1886 and spent decades fighting the city for ownership of the land that grew around it."
+    ],
+    "distanceFromLoop": "About 1.5 miles north of the Loop \u2014 roughly 5-10 minutes by car, walkable, or a few minutes via the Red Line"
   },
   {
     "slug": "south-loop",
@@ -284,7 +309,12 @@
     ],
     "goodFor": "Buyers who want downtown access without Gold Coast pricing.",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Printers%20Row%20Chicago.JPG?width=1200",
+    "photoCredit": "Printers Row, South Loop, via Wikimedia Commons",
+    "funFacts": [
+      "Printers Row's loft buildings were the Midwest's printing and publishing capital from the 1880s to the 1950s before being converted into residential lofts starting in the 1980s."
+    ],
+    "distanceFromLoop": "Directly adjacent to the Loop \u2014 roughly 5 minutes by car or walkable, one stop via the Red or Green Line"
   },
   {
     "slug": "pilsen",
@@ -303,7 +333,7 @@
     ],
     "goodFor": "Buyers seeking value and culture close to the West Loop and Illinois Medical District.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pilsen%20Mural%20along%2017th%20street%20%28223567475%29.jpg?width=1200",
     "famousResidents": [
       "Hector Duarte \u2014 internationally recognized muralist",
       "Ray Patlan and Marcos Raya \u2014 pioneering Pilsen muralists"
@@ -312,7 +342,8 @@
       "Home to the National Museum of Mexican Art, the largest Latino arts institution in the country, with free admission.",
       "The neighborhood's mural tradition dates to the late 1960s, when artists used building walls to unify and educate new Mexican and Mexican-American residents."
     ],
-    "distanceFromLoop": "About 2 miles southwest of the Loop \u2014 roughly 8-10 minutes by car, 15 minutes via the Pink Line"
+    "distanceFromLoop": "About 2 miles southwest of the Loop \u2014 roughly 8-10 minutes by car, 15 minutes via the Pink Line",
+    "photoCredit": "Mural along 17th Street, Pilsen, via Wikimedia Commons"
   },
   {
     "slug": "bridgeport",
@@ -331,7 +362,13 @@
     ],
     "goodFor": "First-time buyers who want more space and lower price points near downtown.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emerald%20Avenue%2C%20Bridgeport%2C%20Chicago%2C%20IL%20%2854832901914%29.jpg?width=1200",
+    "photoCredit": "Emerald Avenue, Bridgeport, via Wikimedia Commons",
+    "funFacts": [
+      "Bridgeport was Chicago's first-named neighborhood, renamed from \"Hardscrabble\" in 1836.",
+      "Has been the home or birthplace of five Chicago mayors, representing all but 10 years of the city's leadership between 1933 and 2011."
+    ],
+    "distanceFromLoop": "About 3 miles southwest of the Loop \u2014 roughly 10 minutes by car, 20 minutes via the Orange Line"
   },
   {
     "slug": "hyde-park",
@@ -350,7 +387,7 @@
     ],
     "goodFor": "Academic families and buyers seeking classic architecture and lakefront value.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20220919%20Promontory%20Point%20from%20Regents%20Park.jpg?width=1200",
     "famousResidents": [
       "Barack Obama \u2014 44th U.S. President, taught constitutional law at the University of Chicago for over a decade",
       "Enrico Fermi \u2014 physicist, 1938 Nobel laureate",
@@ -361,9 +398,11 @@
     "funFacts": [
       "Site of Chicago Pile-1, the world's first artificial nuclear reactor, built beneath Stagg Field in 1942.",
       "Hosted the 1893 World's Columbian Exposition, which shaped Jackson Park.",
-      "The Obama Presidential Center opened in Jackson Park in June 2026."
+      "The Obama Presidential Center opened in Jackson Park in June 2026.",
+      "Promontory Point, a man-made lakefront peninsula in Hyde Park, hosted the wedding reception of George Lucas and Mellody Hobson in 2013."
     ],
-    "distanceFromLoop": "About 7 miles south of the Loop \u2014 roughly 15-20 minutes by car, 25-30 minutes via Metra Electric"
+    "distanceFromLoop": "About 7 miles south of the Loop \u2014 roughly 15-20 minutes by car, 25-30 minutes via Metra Electric",
+    "photoCredit": "Promontory Point, Hyde Park, via Wikimedia Commons"
   },
   {
     "slug": "beverly",
@@ -382,7 +421,7 @@
     ],
     "goodFor": "Families who want a larger lot and a quieter, suburban-feeling city neighborhood.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Welcome%20to%20Beverly.jpg?width=1200",
     "famousResidents": [
       "John Paul Stevens \u2014 U.S. Supreme Court Justice, started his legal career here",
       "Craig Robinson \u2014 actor (The Office), raised in North Beverly",
@@ -394,7 +433,8 @@
       "Home to four Frank Lloyd Wright-designed houses along Longwood Drive, alongside work by Walter Burley Griffin, George W. Maher, and Howard Van Doren Shaw.",
       "Hosts the South Side Irish Parade each March, one of the largest St. Patrick's Day parades in the country."
     ],
-    "distanceFromLoop": "About 13 miles south of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra Rock Island District"
+    "distanceFromLoop": "About 13 miles south of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra Rock Island District",
+    "photoCredit": "Beverly, Chicago, via Wikimedia Commons"
   },
   {
     "slug": "avondale-jefferson-park",
@@ -470,7 +510,13 @@
     ],
     "goodFor": "Buyers who want lake access on a budget.",
     "priceTier": "$",
-    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn%20in%20Rogers%20Park%2C%20Chicago%2C%20IL.jpg?width=1200",
+    "photoCredit": "Rogers Park, via Wikimedia Commons",
+    "funFacts": [
+      "Home to Loyola University Chicago's lakefront campus.",
+      "Named one of the country's \"bloggiest neighborhoods\" by outside.in in 2007, and often cited as the community area that most closely matches Chicago's overall ethnic makeup."
+    ],
+    "distanceFromLoop": "About 9 miles north of the Loop \u2014 roughly 25 minutes by car, 30-35 minutes via the Red Line or Metra"
   },
   {
     "slug": "bronzeville",
@@ -489,7 +535,7 @@
     ],
     "goodFor": "Buyers seeking historic architecture and strong long-term appreciation potential.",
     "priceTier": "$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ida%20B.%20Wells%20National%20Monument.jpg?width=1200",
     "famousResidents": [
       "Ida B. Wells \u2014 journalist and civil rights leader",
       "Gwendolyn Brooks \u2014 Pulitzer Prize-winning poet"
@@ -498,7 +544,8 @@
       "Known historically as the 'Black Metropolis,' the center of Black Chicago's cultural and economic life during the Great Migration.",
       "Congress designated the Bronzeville\u2013Black Metropolis National Heritage Area in 2022, with federal funding for preservation of more than 200 sites."
     ],
-    "distanceFromLoop": "About 4 miles south of the Loop \u2014 roughly 10-15 minutes by car, 15-20 minutes via the Green Line"
+    "distanceFromLoop": "About 4 miles south of the Loop \u2014 roughly 10-15 minutes by car, 15-20 minutes via the Green Line",
+    "photoCredit": "Ida B. Wells National Monument, Bronzeville, via Wikimedia Commons"
   },
   {
     "slug": "united-center-near-west",
@@ -535,7 +582,15 @@
     ],
     "goodFor": "Buyers who want historic character between Lincoln Park and downtown.",
     "priceTier": "$$$$",
-    "photo": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=1000&q=80"
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Michaels%20Church%20in%20Chicago%202018.jpg?width=1200",
+    "photoCredit": "St. Michael's Church, Old Town, via Wikimedia Commons",
+    "famousResidents": [
+      "Henry Gerber \u2014 founder of the Society for Human Rights in 1924, the first gay rights organization in American history; his home on North Crilly Court is a National Historic Landmark"
+    ],
+    "funFacts": [
+      "St. Michael's Church is one of only seven buildings in the city to survive the Great Chicago Fire of 1871."
+    ],
+    "distanceFromLoop": "About 2 miles north of the Loop \u2014 roughly 10 minutes by car, 15 minutes via the Brown or Red Line"
   },
   {
     "slug": "north-center-roscoe-village",
