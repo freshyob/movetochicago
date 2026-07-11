@@ -14,7 +14,12 @@
     "schools": "Evanston Township High School (District 202); highly rated District 65 elementary schools",
     "priceTier": "$$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Evanston%20Skyline%204.JPG?width=1200",
-    "photoCredit": "Downtown Evanston skyline, photo by Nutmegger, via Wikimedia Commons"
+    "photoCredit": "Downtown Evanston skyline, photo by Nutmegger, via Wikimedia Commons",
+    "funFacts": [
+      "Home to Northwestern University's main campus.",
+      "Evanston was the birthplace of the Woman's Christian Temperance Union in 1874 and remained a dry town \u2014 no alcohol sales \u2014 until 1972."
+    ],
+    "distanceFromLoop": "About 12 miles north of the Loop \u2014 roughly 25-30 minutes by car, 30-35 minutes via the Purple Line or Metra"
   },
   {
     "slug": "wilmette",
@@ -46,7 +51,19 @@
     "commute": "Metra Union Pacific North, roughly 35-45 minutes to the Loop",
     "schools": "New Trier High School",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80",
+    "famousResidents": [
+      "Ann-Margret \u2014 actress, New Trier High School alumna",
+      "Ivan Albright \u2014 painter and printmaker, New Trier High School alumnus"
+    ],
+    "funFacts": [
+      "The house used as the McCallister family home in Home Alone (1990) is a real private residence on Lincoln Avenue.",
+      "Winnetka's median household income exceeded $250,000 in 2023."
+    ],
+    "rankings": [
+      "2nd-richest place in Illinois \u2014 Bloomberg's Richest Places Annual Index, 2019"
+    ],
+    "distanceFromLoop": "About 16 miles north of the Loop \u2014 roughly 30-35 minutes by car, 35-45 minutes via Metra Union Pacific North"
   },
   {
     "slug": "highland-park",
@@ -79,7 +96,15 @@
     "schools": "Oak Park and River Forest High School; District 97 elementary",
     "priceTier": "$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Lloyd%20Wright%20Home%20and%20Studio%20%28front%20porch%29.JPG?width=1200",
-    "photoCredit": "Frank Lloyd Wright Home and Studio, via Wikimedia Commons"
+    "photoCredit": "Frank Lloyd Wright Home and Studio, via Wikimedia Commons",
+    "famousResidents": [
+      "Ernest Hemingway \u2014 born and raised in Oak Park",
+      "Frank Lloyd Wright \u2014 lived and worked in Oak Park for 20 years, designing many of his early Prairie School buildings there"
+    ],
+    "funFacts": [
+      "Home to the largest concentration of Frank Lloyd Wright-designed buildings anywhere in the world."
+    ],
+    "distanceFromLoop": "About 9 miles west of the Loop \u2014 roughly 20-25 minutes by car, 25-30 minutes via the Green Line"
   },
   {
     "slug": "river-forest",
@@ -128,7 +153,11 @@
     "schools": "Hinsdale Central High School",
     "priceTier": "$$$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Hinsdale%20Block.JPG?width=1200",
-    "photoCredit": "Downtown Hinsdale Historic District, photo by Teemu08, CC BY-SA 3.0, via Wikimedia Commons"
+    "photoCredit": "Downtown Hinsdale Historic District, photo by Teemu08, CC BY-SA 3.0, via Wikimedia Commons",
+    "funFacts": [
+      "Downtown Hinsdale is a National Register Historic District, largely unchanged despite the intense teardown-and-rebuild activity on surrounding residential blocks."
+    ],
+    "distanceFromLoop": "About 15 miles west of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra BNSF"
   },
   {
     "slug": "naperville",
@@ -144,7 +173,21 @@
     "commute": "Metra BNSF, roughly 40-50 minutes to the Loop",
     "schools": "Naperville Central / Naperville North High Schools",
     "priceTier": "$$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80",
+    "famousResidents": [
+      "Evan Lysacek \u2014 Olympic gold medalist figure skater",
+      "Candace Parker \u2014 WNBA champion and Olympic gold medalist",
+      "Kevin Cordes \u2014 Olympic swimmer"
+    ],
+    "funFacts": [
+      "Naperville's Riverwalk, built by volunteers in 1981 for the city's 150th anniversary, is widely credited as the turnaround point for its downtown."
+    ],
+    "rankings": [
+      "#1 Best City to Live in America \u2014 Niche.com, 2025 and 2026",
+      "Best Public Schools in America \u2014 Niche.com",
+      "No. 16, Best Places to Live \u2014 Money Magazine, 2022"
+    ],
+    "distanceFromLoop": "About 28 miles west of the Loop \u2014 roughly 40-50 minutes by car, 60-70 minutes via Metra BNSF"
   },
   {
     "slug": "downers-grove",
@@ -177,7 +220,12 @@
     "schools": "Prospect / Rolling Meadows High Schools",
     "priceTier": "$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Arlington%20Heights%20Historic%20District%2001.JPG?width=1200",
-    "photoCredit": "Arlington Heights Historic District, via Wikimedia Commons"
+    "photoCredit": "Arlington Heights Historic District, via Wikimedia Commons",
+    "funFacts": [
+      "Was known as 'Dunton,' after original settler William Dunton, until 1874.",
+      "Formerly home to The Cellar (1964-1970), a teen rock club that hosted acts including The Who, The Byrds, and Cream."
+    ],
+    "distanceFromLoop": "About 25 miles northwest of the Loop \u2014 roughly 40-45 minutes by car, 50-60 minutes via Metra Union Pacific Northwest"
   },
   {
     "slug": "schaumburg",

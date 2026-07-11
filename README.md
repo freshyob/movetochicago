@@ -93,15 +93,18 @@ the shape written to KV just needs to match `{ generatedAt, items: [...] }`.
 
 ## Automatic daily content — two pipelines
 
-### 1. Chicago Daily (short news blurbs, fully automatic)
+### 1. Chicago Daily (short news blurbs, fully automatic, runs 3x/day)
 
-`api/cron-refresh-daily-content.js` runs once a day, searches the web for
-current items in five categories (News, Food, Festivals, Entertainment,
-Schools), restricted to a named list of trusted Chicago sources (Block Club
-Chicago, Eater Chicago, Choose Chicago, CPS.edu, etc. — see the source list
-in the file), and writes short original summaries with source links
-straight to the live site. No human review step — these are short,
-clearly-attributed blurbs, not long-form content under a person's name.
+`api/cron-refresh-daily-content.js` runs three times a day (6am, 11am, 4pm
+Central by default — adjust the cron strings in `vercel.json`), searches
+five categories (News, Food, Festivals, Entertainment, Schools) restricted
+to a named list of trusted Chicago sources, and writes short original
+summaries with a specific source link to each real article/event — never a
+homepage link. New items are appended to a running, deduplicated list
+(capped at 60) rather than overwriting the feed each run, so it grows
+through the day instead of resetting. No human review step — these are
+short, clearly-attributed blurbs, not long-form content under a person's
+name.
 
 ### 2. Chicago Stories (full articles, ghostwritten for Jason, review-gated)
 
@@ -164,6 +167,58 @@ going through the pending queue, since that queue is for the ongoing daily
 drip, not a one-time launch batch. Same bar applies: verify anything
 time-sensitive (the Arlington Heights piece in particular references a
 June 2026 stadium decision) before it's live under Jason's name for good.
+
+### 4. Neighborhood/suburb enrichment facts + per-place recent news
+
+Each neighborhood/suburb in `neighborhoods.json` / `suburbs.json` can now
+carry these optional fields, rendered on its detail page by
+`src/components/PlaceFacts.jsx` (sections only appear if the data exists,
+so partially-filled places don't show empty boxes):
+
+- `distanceFromLoop` — string, e.g. `"About 3 miles north of the Loop —
+  roughly 10 minutes by car, 20 minutes via the Red Line"`
+- `famousResidents` — array of strings, `"Name — brief description"`
+- `funFacts` — array of short strings
+- `popularSpots` — array of `{ "name": "...", "type": "Restaurant" | "Bar" | ... }`
+- `rankings` — array of strings, only ever real, cited rankings (e.g.
+  `"#1 Best City to Live in America — Niche.com, 2025 and 2026"`) — never
+  invented. If you can't find a verifiable ranking for a place, leave this
+  field out rather than guessing.
+
+**Current coverage**: 10 of 24 neighborhoods and 6 of 18 suburbs have this
+filled in with real, sourced facts (Lincoln Park, Wicker Park/Bucktown,
+Logan Square, Andersonville, Beverly, Bronzeville, Hyde Park, Pilsen,
+Lakeview, West Loop; Evanston, Oak Park, Naperville, Hinsdale, Winnetka/
+Kenilworth, Arlington Heights). The rest still work fine — those sections
+just don't render for them yet. To fill in the remaining ones, the method
+that worked well: search `"[place name] Chicago Wikipedia"` for the
+"Notable people" section (a great, well-sourced start for famous
+residents and fun facts), then a separate search like `"[place name] best
+place to live ranking"` for anything ranking-worthy — and only include a
+ranking if you find a real, named, dated source for it.
+
+**Recent news per place**: `api/cron-refresh-neighborhood-news.js` runs
+once a day, rotates to the next neighborhood or suburb (all 42, one per
+day, so any single place gets refreshed roughly every six weeks), and
+searches trusted sources for real, current news that specifically names
+that place. Results are stored per-slug in KV and shown in a "Recent News"
+section on that place's detail page via `src/components/PlaceNews.jsx` —
+sections with no news yet simply don't render. This is short, sourced
+blurbs (same reasoning as Chicago Daily), so it publishes automatically,
+no review queue.
+
+### A note on Vercel's Hobby (free) plan and cron frequency
+
+Vercel's free plan only allows a single cron **entry** to fire once per
+day — an entry like `"0 11,16,21 * * *"` (three times a day) will fail to
+deploy on Hobby with an error about daily-only cron jobs. To get Chicago
+Daily refreshing three times a day for free anyway, `vercel.json` lists
+**three separate cron entries** pointing at the same
+`cron-refresh-daily-content` endpoint, each scheduled once a day at a
+different hour — each entry individually satisfies the once-a-day rule,
+so all three deploy fine on Hobby. If you upgrade to Pro later, you could
+consolidate these back into one entry with `"0 11,16,21 * * *"` if you
+prefer, though there's no real need to.
 
 ## Photography and editorial copy
 

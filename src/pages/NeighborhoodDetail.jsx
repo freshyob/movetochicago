@@ -5,6 +5,8 @@ import ListingCard from '../components/ListingCard.jsx'
 import { fetchListings } from '../lib/idx.js'
 import stories from '../data/stories.json'
 import StoryCard from '../components/StoryCard.jsx'
+import PlaceFacts from '../components/PlaceFacts.jsx'
+import PlaceNews from '../components/PlaceNews.jsx'
 
 export default function NeighborhoodDetail() {
   const { slug } = useParams()
@@ -55,6 +57,9 @@ export default function NeighborhoodDetail() {
           <p className="text-sm text-ink">{item.goodFor}</p>
         </div>
       </div>
+
+      <PlaceFacts item={item} />
+      <PlaceNews slug={item.slug} />
 
       <h2 className="font-display font-bold text-2xl mb-4">Homes for Sale in {item.name}</h2>
       {listings.length === 0 ? (

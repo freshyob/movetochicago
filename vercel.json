@@ -5,8 +5,20 @@
       "schedule": "0 11 * * *"
     },
     {
+      "path": "/api/cron-refresh-daily-content",
+      "schedule": "0 16 * * *"
+    },
+    {
+      "path": "/api/cron-refresh-daily-content",
+      "schedule": "0 21 * * *"
+    },
+    {
       "path": "/api/cron-refresh-stories",
       "schedule": "0 13 * * *"
+    },
+    {
+      "path": "/api/cron-refresh-neighborhood-news",
+      "schedule": "30 14 * * *"
     }
   ]
 }

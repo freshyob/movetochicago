@@ -1,45 +1,45 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-07-10T12:00:00.000Z",
   "items": [
     {
-      "id": "seed-1",
+      "id": "launch-1",
       "category": "Festivals",
-      "headline": "Add Chicago's Festival Calendar Here",
-      "summary": "Once the daily content job is live, this card will surface the week's actual festivals and street fairs pulled from Choose Chicago's event calendar.",
-      "source": "Seed content",
-      "url": "https://www.choosechicago.com/events/"
+      "headline": "Taste of Chicago returns to Grant Park July 8-12",
+      "summary": "The 46th annual Taste of Chicago is running five days this year instead of the usual long weekend, with dozens of local restaurants and free nightly concerts headlined by Common, Babyface, Beach Bunny, and Julieta Venegas.",
+      "source": "City of Chicago DCASE",
+      "url": "https://www.chicago.gov/city/en/depts/dca/provdrs/chicago_festivals/news/2026/may/taste_of_chicago.html"
     },
     {
-      "id": "seed-2",
+      "id": "launch-2",
       "category": "Food",
-      "headline": "New Restaurant Openings",
-      "summary": "This card will surface recent restaurant openings and closings from Chicago food press once the daily job is connected.",
-      "source": "Seed content",
-      "url": "https://chicago.eater.com"
+      "headline": "Sanders BBQ Supply Co. is expanding from Beverly to Hyde Park",
+      "summary": "After winning Best Counter Service at the local Banchet Awards and landing a James Beard semifinalist nod, chef James Sanders is opening a sit-down barbecue and steak spot at 5311 S. Lake Park Ave. in Hyde Park this July.",
+      "source": "WTTW Chicago",
+      "url": "https://www.wttw.com/playlist/2026/06/23/upcoming-restaurants-chicago-area-summer-2026"
     },
     {
-      "id": "seed-3",
-      "category": "News",
-      "headline": "Local Chicago News",
-      "summary": "This card will surface top local Chicago headlines relevant to new residents (transit, weather, city services).",
-      "source": "Seed content",
-      "url": "https://blockclubchicago.org"
-    },
-    {
-      "id": "seed-4",
-      "category": "Schools",
-      "headline": "CPS and District Announcements",
-      "summary": "This card will surface Chicago Public Schools enrollment deadlines and announcements relevant to relocating families.",
-      "source": "Seed content",
-      "url": "https://www.cps.edu"
-    },
-    {
-      "id": "seed-5",
+      "id": "launch-3",
       "category": "Entertainment",
-      "headline": "What's Playing This Week",
-      "summary": "This card will surface current entertainment listings — theater, live music, comedy — from Time Out Chicago and WTTW once the daily job is connected.",
-      "source": "Seed content",
-      "url": "https://www.timeout.com/chicago"
+      "headline": "Southport Art Fest takes over Lakeview July 11-12",
+      "summary": "More than 100 local and national artists set up along the Southport Corridor for the weekend, with live entertainment throughout one of the North Side's most walkable strips.",
+      "source": "Time Out Chicago",
+      "url": "https://www.timeout.com/chicago/events-calendar/july-events-calendar"
+    },
+    {
+      "id": "launch-4",
+      "category": "Schools",
+      "headline": "CPS confirms August 24 start date for 2026-27 school year",
+      "summary": "Chicago Public Schools' family calendar is finalized for the coming year, with winter break running December 21 through January 4. The district is also facing a budget shortfall that could affect staffing and programs at some schools.",
+      "source": "Chicago Public Schools",
+      "url": "https://www.cps.edu/calendar/"
+    },
+    {
+      "id": "launch-5",
+      "category": "News",
+      "headline": "Bears move forward with Hammond, Indiana stadium plan",
+      "summary": "After years of negotiations over the former Arlington Park racetrack site, the Chicago Bears' board voted in June to build their new stadium in Hammond, Indiana instead, leaving the 326-acre Arlington Heights property's future undecided again.",
+      "source": "NBC Chicago",
+      "url": "https://www.nbcchicago.com/chicago-sports-bears-sox-cubs-bulls-blackhawks/mayor-of-arlington-heights-responds-to-bears-moving-ahead-with-indiana-plans/3944683/"
     }
   ]
 }

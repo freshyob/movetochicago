@@ -18,7 +18,19 @@
     "goodFor": "Families who want lakefront access without leaving the city, and young professionals who want walkability.",
     "priceTier": "$$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Lincoln%20Park%20-%2001.jpg?width=1200",
-    "photoCredit": "Lincoln Park aerial view, via Wikimedia Commons"
+    "photoCredit": "Lincoln Park aerial view, via Wikimedia Commons",
+    "famousResidents": [
+      "Gene Siskel and Roger Ebert \u2014 film critics",
+      "Charlie Trotter \u2014 chef",
+      "Sargent Shriver and Eunice Kennedy Shriver",
+      "Henry Darger \u2014 outsider artist",
+      "Mother Frances Xavier Cabrini \u2014 first American saint"
+    ],
+    "funFacts": [
+      "Lincoln Park (the park) is Chicago's largest at 1,208 acres and the second-most-visited city park in the U.S. after Central Park, drawing about 20 million visitors a year.",
+      "The park was the site of large gatherings during the 1968 Democratic National Convention."
+    ],
+    "distanceFromLoop": "About 3 miles north of the Loop \u2014 roughly 10 minutes by car, 20 minutes via the Red or Brown Line"
   },
   {
     "slug": "lakeview",
@@ -39,7 +51,12 @@
     "goodFor": "Renters and first-time buyers who want density, nightlife, and easy transit downtown.",
     "priceTier": "$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wrigleyville%2C%20Chicago.jpg?width=1200",
-    "photoCredit": "Wrigleyville, Chicago, via Wikimedia Commons"
+    "photoCredit": "Wrigleyville, Chicago, via Wikimedia Commons",
+    "funFacts": [
+      "Home to Wrigley Field, built in 1914 and the second-oldest ballpark in Major League Baseball.",
+      "Boystown, within Lakeview, was the first neighborhood in the U.S. officially recognized by a city government as a gay village, in 1997."
+    ],
+    "distanceFromLoop": "About 5.5 miles north of the Loop \u2014 roughly 15 minutes by car, 20-25 minutes via the Red or Brown Line"
   },
   {
     "slug": "wicker-park-bucktown",
@@ -59,7 +76,12 @@
     "goodFor": "Buyers who want an urban, design-forward neighborhood with strong resale value.",
     "priceTier": "$$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wicker%20Park%20Historic%20District%20A%20Chicago%20IL.jpg?width=1200",
-    "photoCredit": "Wicker Park Historic District, via Wikimedia Commons"
+    "photoCredit": "Wicker Park Historic District, via Wikimedia Commons",
+    "funFacts": [
+      "MTV's The Real World: Chicago filmed here in 2001, a moment often credited with accelerating the neighborhood's gentrification.",
+      "The 606 elevated trail, built on a former rail line, connects Wicker Park to Bucktown, Logan Square, and Humboldt Park."
+    ],
+    "distanceFromLoop": "About 3.5 miles northwest of the Loop \u2014 roughly 10-15 minutes by car, 20 minutes via the Blue Line"
   },
   {
     "slug": "logan-square",
@@ -78,7 +100,15 @@
     "goodFor": "Buyers priced out of Bucktown who still want walkability and a food scene.",
     "priceTier": "$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/19990213%2045%20Logan%20Blvd.%20%40%20Logan%20Square%20%286652821731%29.jpg?width=1200",
-    "photoCredit": "Logan Boulevard at Logan Square, photo by SPUI, CC BY-SA, via Wikimedia Commons"
+    "photoCredit": "Logan Boulevard at Logan Square, photo by SPUI, CC BY-SA, via Wikimedia Commons",
+    "famousResidents": [
+      "Ignaz Schwinn \u2014 founder of the Schwinn Bicycle Company, settled in Logan Square"
+    ],
+    "funFacts": [
+      "The Illinois Centennial Monument at the square's center is a 70-foot Doric column designed by Henry Bacon, the same architect behind the Lincoln Memorial.",
+      "Logan Square's boulevards are part of Chicago's 26-mile, National Register-listed Boulevard Park System."
+    ],
+    "distanceFromLoop": "About 5.5 miles northwest of the Loop \u2014 roughly 15-20 minutes by car, 25 minutes via the Blue Line"
   },
   {
     "slug": "andersonville",
@@ -98,7 +128,22 @@
     "goodFor": "Buyers who want community feel and independent businesses over chains.",
     "priceTier": "$$$",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Andersonville%2C%20Chicago.JPG?width=1200",
-    "photoCredit": "Andersonville Commercial Historic District, via Wikimedia Commons"
+    "photoCredit": "Andersonville Commercial Historic District, via Wikimedia Commons",
+    "funFacts": [
+      "Once home to the second-largest Swedish population of any city outside Stockholm.",
+      "The Andersonville Commercial Historic District was added to the National Register of Historic Places in 2010."
+    ],
+    "distanceFromLoop": "About 7 miles north of the Loop \u2014 roughly 20 minutes by car, 30-35 minutes via the Red Line",
+    "popularSpots": [
+      {
+        "name": "Hopleaf",
+        "type": "Restaurant & Bar"
+      },
+      {
+        "name": "Simon's Tavern",
+        "type": "Bar"
+      }
+    ]
   },
   {
     "slug": "edgewater",
@@ -157,7 +202,30 @@
     ],
     "goodFor": "Buyers who want a short commute downtown and new-construction finishes.",
     "priceTier": "$$$$$",
-    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1494522358652-f30e61a60313?w=1000&q=80",
+    "funFacts": [
+      "Randolph Street's 'Restaurant Row' has one of the highest concentrations of Michelin-starred restaurants of any neighborhood in the country.",
+      "Google's Chicago offices and the former Harpo Studios helped anchor the neighborhood's redevelopment from its meatpacking-era industrial roots."
+    ],
+    "distanceFromLoop": "About 1.5 miles west of the Loop \u2014 roughly 5-10 minutes by car, walkable, or a few minutes via the Green or Pink Line",
+    "popularSpots": [
+      {
+        "name": "Girl & the Goat",
+        "type": "Restaurant"
+      },
+      {
+        "name": "Au Cheval",
+        "type": "Restaurant & Bar"
+      },
+      {
+        "name": "The Publican",
+        "type": "Restaurant"
+      },
+      {
+        "name": "Green Street Smoked Meats",
+        "type": "Restaurant"
+      }
+    ]
   },
   {
     "slug": "river-north",
@@ -235,7 +303,16 @@
     ],
     "goodFor": "Buyers seeking value and culture close to the West Loop and Illinois Medical District.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80",
+    "famousResidents": [
+      "Hector Duarte \u2014 internationally recognized muralist",
+      "Ray Patlan and Marcos Raya \u2014 pioneering Pilsen muralists"
+    ],
+    "funFacts": [
+      "Home to the National Museum of Mexican Art, the largest Latino arts institution in the country, with free admission.",
+      "The neighborhood's mural tradition dates to the late 1960s, when artists used building walls to unify and educate new Mexican and Mexican-American residents."
+    ],
+    "distanceFromLoop": "About 2 miles southwest of the Loop \u2014 roughly 8-10 minutes by car, 15 minutes via the Pink Line"
   },
   {
     "slug": "bridgeport",
@@ -273,7 +350,20 @@
     ],
     "goodFor": "Academic families and buyers seeking classic architecture and lakefront value.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1547333101-4da2b8fc4e05?w=1000&q=80",
+    "famousResidents": [
+      "Barack Obama \u2014 44th U.S. President, taught constitutional law at the University of Chicago for over a decade",
+      "Enrico Fermi \u2014 physicist, 1938 Nobel laureate",
+      "Milton Friedman \u2014 economist, 1976 Nobel laureate",
+      "Harold Washington \u2014 Chicago's first Black mayor",
+      "Amelia Earhart \u2014 attended Hyde Park High School"
+    ],
+    "funFacts": [
+      "Site of Chicago Pile-1, the world's first artificial nuclear reactor, built beneath Stagg Field in 1942.",
+      "Hosted the 1893 World's Columbian Exposition, which shaped Jackson Park.",
+      "The Obama Presidential Center opened in Jackson Park in June 2026."
+    ],
+    "distanceFromLoop": "About 7 miles south of the Loop \u2014 roughly 15-20 minutes by car, 25-30 minutes via Metra Electric"
   },
   {
     "slug": "beverly",
@@ -292,7 +382,19 @@
     ],
     "goodFor": "Families who want a larger lot and a quieter, suburban-feeling city neighborhood.",
     "priceTier": "$$",
-    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&q=80",
+    "famousResidents": [
+      "John Paul Stevens \u2014 U.S. Supreme Court Justice, started his legal career here",
+      "Craig Robinson \u2014 actor (The Office), raised in North Beverly",
+      "Daniel Sunjata \u2014 actor, raised in Beverly",
+      "Morgan F. Murphy \u2014 U.S. Congressman"
+    ],
+    "funFacts": [
+      "Sits on the Blue Island Ridge, the highest natural point in Chicago.",
+      "Home to four Frank Lloyd Wright-designed houses along Longwood Drive, alongside work by Walter Burley Griffin, George W. Maher, and Howard Van Doren Shaw.",
+      "Hosts the South Side Irish Parade each March, one of the largest St. Patrick's Day parades in the country."
+    ],
+    "distanceFromLoop": "About 13 miles south of the Loop \u2014 roughly 25-30 minutes by car, 35-40 minutes via Metra Rock Island District"
   },
   {
     "slug": "avondale-jefferson-park",
@@ -387,7 +489,16 @@
     ],
     "goodFor": "Buyers seeking historic architecture and strong long-term appreciation potential.",
     "priceTier": "$",
-    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80"
+    "photo": "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?w=1000&q=80",
+    "famousResidents": [
+      "Ida B. Wells \u2014 journalist and civil rights leader",
+      "Gwendolyn Brooks \u2014 Pulitzer Prize-winning poet"
+    ],
+    "funFacts": [
+      "Known historically as the 'Black Metropolis,' the center of Black Chicago's cultural and economic life during the Great Migration.",
+      "Congress designated the Bronzeville\u2013Black Metropolis National Heritage Area in 2022, with federal funding for preservation of more than 200 sites."
+    ],
+    "distanceFromLoop": "About 4 miles south of the Loop \u2014 roughly 10-15 minutes by car, 15-20 minutes via the Green Line"
   },
   {
     "slug": "united-center-near-west",
