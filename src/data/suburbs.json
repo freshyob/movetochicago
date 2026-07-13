@@ -430,5 +430,514 @@
       "The Lockport Historic District includes 59 buildings, most built of locally quarried limestone, including the 1838 Gaylord Building, now a restaurant and museum."
     ],
     "distanceFromLoop": "About 30 miles southwest of the Loop \u2014 roughly 45-55 minutes by car (Lockport); Homer Glen is a few miles further west with no rail service, car-dependent"
+  },
+  {
+    "slug": "riverside",
+    "name": "Riverside",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Historic",
+      "Architecture",
+      "Walkable"
+    ],
+    "vibe": "A National Historic Landmark village designed in 1869 by Frederick Law Olmsted, with curving streets following the Des Plaines River.",
+    "description": "Riverside is one of the first planned suburban communities in the U.S., designed by Frederick Law Olmsted (of Central Park fame) around curving roads and river-following green space rather than a grid. The entire village is a National Historic Landmark.",
+    "commute": "Metra BNSF Line, roughly 25-30 minutes to Union Station",
+    "schools": "Riverside-Brookfield High School; Riverside Elementary District 96",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20HD%20%2833915193402%29.jpg?width=1200",
+    "photoCredit": "Riverside Historic District, via Wikimedia Commons",
+    "funFacts": [
+      "Designed in 1869 by Frederick Law Olmsted and Calvert Vaux (the team behind Central Park), Riverside is considered the first fully realized planned suburb in the United States.",
+      "Frank Lloyd Wright's Avery Coonley House, a National Historic Landmark in its own right, is one of more than 80 landmark structures in the village."
+    ],
+    "rankings": [
+      "Named one of the Illinois 200 Great Places by AIA Illinois in 2018"
+    ]
+  },
+  {
+    "slug": "north-riverside",
+    "name": "North Riverside",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Value",
+      "Convenient"
+    ],
+    "vibe": "A small, affordable residential village best known regionally for the North Riverside Park Mall.",
+    "description": "North Riverside is a small, mostly residential village next to Riverside, offering more affordable housing than many of its Near West neighbors along with easy expressway access via I-290.",
+    "commute": "Pace bus to CTA/Metra connections; car-dependent, roughly 20-25 minutes to the Loop via I-290",
+    "schools": "Riverside-Brookfield High School; North Riverside School District 96",
+    "priceTier": "$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/North%20Riverside%20Park%20Mall%20in%20Illinois%2C%20US.jpg?width=1200",
+    "photoCredit": "North Riverside Park Mall, via Wikimedia Commons",
+    "funFacts": [
+      "North Riverside Park Mall, which opened in 1975, had scenes from the 2011 film Contagion filmed there.",
+      "The Village Commons, the civic heart of town, features a pond, fountain, and walking paths and is considered one of the more attractive public green spaces in the western suburbs."
+    ],
+    "distanceFromLoop": "About 10 miles west of the Loop \u2014 roughly 20-25 minutes by car via I-290"
+  },
+  {
+    "slug": "berwyn",
+    "name": "Berwyn",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Value",
+      "Historic",
+      "Bungalows"
+    ],
+    "vibe": "A dense, historic suburb known for its Chicago-bungalow housing stock and the giant fiberglass \"Spindle\" car sculpture (removed 2008, still part of local lore).",
+    "description": "Berwyn is a working-class-rooted, densely built suburb known for mile after mile of Chicago bungalows, a walkable downtown, and some of the most affordable housing close to the city in the western suburbs.",
+    "commute": "Metra BNSF Line, roughly 20-25 minutes to Union Station",
+    "schools": "Morton West/Freshman Center; multiple elementary districts",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "western-springs",
+    "name": "Western Springs",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Families",
+      "Schools",
+      "Quiet"
+    ],
+    "vibe": "A small, family-oriented village known for top-rated schools and a classic downtown Metra stop.",
+    "description": "Western Springs is a small, affluent, family-focused village with a walkable downtown centered on its Metra station, and consistently strong elementary and high school ratings.",
+    "commute": "Metra BNSF Line, roughly 25-30 minutes to Union Station",
+    "schools": "Lyons Township High School; Western Springs School District 101",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "brookfield",
+    "name": "Brookfield",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Families",
+      "Value"
+    ],
+    "vibe": "Best known as home to the Brookfield Zoo, with a mix of bungalows and post-war housing at accessible prices.",
+    "description": "Brookfield is a family-friendly suburb best known for the Brookfield Zoo (officially the Chicago Zoological Society), offering more affordable housing than some of its Near West neighbors along with Metra access.",
+    "commute": "Metra BNSF Line, roughly 25-30 minutes to Union Station",
+    "schools": "Riverside-Brookfield High School; Brookfield LaGrange Park School District 95",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "des-plaines",
+    "name": "Des Plaines",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Convenient",
+      "Value",
+      "Airport-adjacent"
+    ],
+    "vibe": "A larger, diverse suburb next to O'Hare, with a walkable downtown Metra stop and generally accessible pricing.",
+    "description": "Des Plaines is a sizable, diverse suburb bordering O'Hare International Airport, offering a walkable downtown around its Metra station along with generally more accessible pricing than the North Shore.",
+    "commute": "Metra Union Pacific Northwest Line + CTA Blue Line (Rosemont) nearby, roughly 30-35 minutes to the Loop",
+    "schools": "Maine West High School; multiple elementary districts",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "skokie",
+    "name": "Skokie",
+    "region": "North Shore",
+    "tags": [
+      "Diverse",
+      "Value",
+      "Convenient"
+    ],
+    "vibe": "One of the most ethnically diverse suburbs in the country, with a direct CTA Yellow Line connection into the city.",
+    "description": "Skokie is a diverse, well-established suburb directly north of Chicago, known for its strong public schools, the Illinois Holocaust Museum, and being one of the only suburbs with a direct CTA rapid transit connection via the Yellow Line.",
+    "commute": "CTA Yellow Line (Skokie Swift) to the Red Line, roughly 30-35 minutes to the Loop; Metra UP-North also nearby",
+    "schools": "Niles North/Niles West High Schools; Skokie School District 69/73.5",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "buffalo-grove",
+    "name": "Buffalo Grove",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Families",
+      "Schools",
+      "Suburban"
+    ],
+    "vibe": "A planned, family-oriented suburb straddling Lake and Cook counties, consistently ranked among the safer, higher-scoring school suburbs.",
+    "description": "Buffalo Grove is a master-planned suburb known for strong schools, extensive park district programming, and a diverse, family-focused population.",
+    "commute": "Metra Milwaukee District North (nearby Prairie View/Wheeling), roughly 45-55 minutes to Union Station; car-dependent for most",
+    "schools": "Buffalo Grove/Stevenson High Schools; Kildeer Countryside and other elementary districts",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "lake-forest",
+    "name": "Lake Forest",
+    "region": "North Shore",
+    "tags": [
+      "Luxury",
+      "Historic",
+      "Lakefront"
+    ],
+    "vibe": "One of the North Shore's most affluent, historic communities, with large wooded lots and a private lakefront.",
+    "description": "Lake Forest is among the wealthiest and most historic North Shore suburbs, known for large wooded estate lots, a well-preserved historic downtown (Market Square, one of the first planned shopping centers in the U.S.), and Lake Forest College.",
+    "commute": "Metra Union Pacific North Line, roughly 45-55 minutes to Ogilvie",
+    "schools": "Lake Forest High School; Lake Forest School District 67",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "riverwoods",
+    "name": "Riverwoods",
+    "region": "North Shore",
+    "tags": [
+      "Luxury",
+      "Wooded",
+      "Quiet"
+    ],
+    "vibe": "A small, densely wooded, large-lot village with no traditional downtown \u2014 privacy is the draw.",
+    "description": "Riverwoods is a small, exclusive village built around large wooded lots and winding, wooded roads rather than a traditional commercial downtown, prized for privacy and space.",
+    "commute": "Car-dependent; nearest Metra is Deerfield (UP-North), roughly 45-55 minutes to Ogilvie",
+    "schools": "Deerfield High School; Riverwoods School District 96",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "libertyville",
+    "name": "Libertyville",
+    "region": "North Shore",
+    "tags": [
+      "Historic",
+      "Families",
+      "Walkable"
+    ],
+    "vibe": "A charming, historic downtown suburb with strong schools and an active Metra commuter base.",
+    "description": "Libertyville pairs a walkable, historic downtown with strong schools and larger lot sizes than closer-in suburbs, drawing families who want small-town character on the Metra line.",
+    "commute": "Metra Milwaukee District North, roughly 55-65 minutes to Union Station",
+    "schools": "Libertyville High School; Libertyville School District 70",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "deerfield",
+    "name": "Deerfield",
+    "region": "North Shore",
+    "tags": [
+      "Schools",
+      "Families",
+      "Corporate"
+    ],
+    "vibe": "A high-performing-school North Shore suburb also home to major corporate campuses (Walgreens, Beam Suntory, Mondelez).",
+    "description": "Deerfield combines top-ranked schools with a significant corporate presence, drawing families who want North Shore school quality with a shorter commute for some via nearby employers.",
+    "commute": "Metra Union Pacific North Line, roughly 45-50 minutes to Ogilvie",
+    "schools": "Deerfield High School; Deerfield School District 109",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "lincolnshire",
+    "name": "Lincolnshire",
+    "region": "North Shore",
+    "tags": [
+      "Corporate",
+      "Golf",
+      "Quiet"
+    ],
+    "vibe": "A smaller, golf-course-lined village home to the Marriott Lincolnshire Resort and several corporate offices.",
+    "description": "Lincolnshire is a smaller North Shore-area village built around golf courses and corporate campuses, with a quieter, lower-density residential feel than its larger neighbors.",
+    "commute": "Car-dependent; nearest Metra in Deerfield/Prairie View, roughly 50-60 minutes to Ogilvie",
+    "schools": "Adlai E. Stevenson High School; Aptakisic-Tripp School District 102",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "kildeer",
+    "name": "Kildeer",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Luxury",
+      "Golf",
+      "Quiet"
+    ],
+    "vibe": "A small, upscale village known for large-lot estates and Kemper Lakes Golf Club.",
+    "description": "Kildeer is a small, affluent village near Long Grove known for large-lot custom homes and its golf-course setting, feeding into the highly regarded Stevenson High School.",
+    "commute": "Car-dependent; roughly 55-65 minutes to the Loop by car depending on traffic",
+    "schools": "Adlai E. Stevenson High School; Kildeer Countryside School District 96",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "northbrook",
+    "name": "Northbrook",
+    "region": "North Shore",
+    "tags": [
+      "Schools",
+      "Families",
+      "Convenient"
+    ],
+    "vibe": "A well-established North Shore suburb known for Glenbrook North High School and easy expressway/Metra access.",
+    "description": "Northbrook is a family-oriented North Shore suburb with strong schools, a walkable downtown, and convenient access to both the Edens Expressway and Metra.",
+    "commute": "Metra Milwaukee District North, roughly 40-45 minutes to Union Station",
+    "schools": "Glenbrook North High School; Northbrook School District 27/28/30",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "palos-park",
+    "name": "Palos Park",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Wooded",
+      "Quiet",
+      "Nature"
+    ],
+    "vibe": "A wooded, semi-rural village bordering the Palos Forest Preserves, popular with buyers who want space and privacy.",
+    "description": "Palos Park is a small, heavily wooded village bordering the extensive Palos Forest Preserves, drawing buyers who want larger, private lots and proximity to hiking and nature trails while staying in the southwest suburbs.",
+    "commute": "Metra SouthWest Service, roughly 45-55 minutes to Union Station",
+    "schools": "Amos Alonzo Stagg High School; Palos Community Consolidated School District 118",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "palos-heights",
+    "name": "Palos Heights",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Families",
+      "Lakefront",
+      "Quiet"
+    ],
+    "vibe": "A quiet, lake-and-park-centered village anchored by Lake Katherine Nature Center.",
+    "description": "Palos Heights is a quiet, residential southwest suburb centered on Lake Katherine Nature Preserve, with a family-oriented feel and easy access to the Palos forest preserve system.",
+    "commute": "Car-dependent; nearest Metra in Palos Park/Worth, roughly 45-55 minutes to Union Station",
+    "schools": "Amos Alonzo Stagg / Chicago Christian High Schools; multiple elementary districts",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "burr-ridge",
+    "name": "Burr Ridge",
+    "region": "Near West Suburbs",
+    "tags": [
+      "Luxury",
+      "Golf",
+      "Convenient"
+    ],
+    "vibe": "An upscale village known for larger estate homes, golf clubs, and easy access to I-55, I-294, and I-355.",
+    "description": "Burr Ridge is an affluent village known for larger custom and estate homes, several golf and country clubs, and unusually convenient access to three major expressways.",
+    "commute": "Car-dependent; nearest Metra in Hinsdale/Willowbrook, roughly 35-40 minutes to Union Station",
+    "schools": "Hinsdale Central High School; Pleasantdale/Gower School Districts",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "bolingbrook",
+    "name": "Bolingbrook",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Value",
+      "Families",
+      "Growing"
+    ],
+    "vibe": "One of the larger, fast-growing southwest suburbs, known for relatively affordable newer construction.",
+    "description": "Bolingbrook is one of the larger southwest suburbs, having grown rapidly since the 1980s, offering a wide range of newer-construction housing at prices generally more accessible than closer-in suburbs.",
+    "commute": "Car-dependent (no direct Metra); Pace bus connections, roughly 40-50 minutes to the Loop by car",
+    "schools": "Bolingbrook High School; Valley View School District 365U",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "lemont",
+    "name": "Lemont",
+    "region": "Southwest Suburbs",
+    "tags": [
+      "Historic",
+      "Scenic",
+      "Quarry town"
+    ],
+    "vibe": "A historic former quarry town along the Des Plaines River and I&M Canal, with a walkable, limestone-built downtown.",
+    "description": "Lemont's downtown is built largely of locally quarried limestone, a legacy of its 19th-century quarrying industry along the Illinois and Michigan Canal, giving it one of the more distinctive historic Main Streets in the southwest suburbs.",
+    "commute": "Metra Heritage Corridor, limited weekday service, roughly 45-50 minutes to Union Station",
+    "schools": "Lemont High School; Lemont-Bromberek School District 113A",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "crystal-lake",
+    "name": "Crystal Lake",
+    "region": "Far Northwest Suburbs",
+    "tags": [
+      "Lakefront",
+      "Families",
+      "Value"
+    ],
+    "vibe": "A larger McHenry County suburb built around its namesake spring-fed lake, offering more space for the price than closer-in suburbs.",
+    "description": "Crystal Lake is a larger, farther-out suburb centered on its namesake spring-fed lake, offering more house and land for the money than suburbs closer to the city, at the cost of a longer commute.",
+    "commute": "Metra Union Pacific Northwest Line, roughly 65-75 minutes to Ogilvie",
+    "schools": "Crystal Lake Central/South High Schools; multiple elementary districts",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "glen-ellyn",
+    "name": "Glen Ellyn",
+    "region": "Far West Suburbs",
+    "tags": [
+      "Historic",
+      "Walkable",
+      "Schools"
+    ],
+    "vibe": "A walkable, tree-lined DuPage County suburb with a well-preserved downtown and strong schools.",
+    "description": "Glen Ellyn is a walkable, well-established DuPage County suburb known for its historic downtown, Lake Ellyn park, and consistently strong-performing schools.",
+    "commute": "Metra Union Pacific West Line, roughly 40-45 minutes to Ogilvie",
+    "schools": "Glenbard West High School; Glen Ellyn School District 41",
+    "priceTier": "$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "carol-stream",
+    "name": "Carol Stream",
+    "region": "Far West Suburbs",
+    "tags": [
+      "Value",
+      "Families",
+      "Convenient"
+    ],
+    "vibe": "A larger, mostly residential DuPage County suburb offering more accessible pricing than its immediate neighbors.",
+    "description": "Carol Stream is a mostly residential DuPage County suburb, developed largely in the postwar era, offering more accessible housing prices than closer-in DuPage suburbs like Glen Ellyn or Wheaton.",
+    "commute": "Car-dependent; nearest Metra in Wheaton/Winfield, roughly 45-55 minutes to Ogilvie",
+    "schools": "Glenbard North/Wheaton North High Schools; Community Consolidated School District 93",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "st-charles",
+    "name": "St. Charles",
+    "region": "Fox Valley",
+    "tags": [
+      "Historic",
+      "Riverfront",
+      "Walkable"
+    ],
+    "vibe": "A picturesque Fox River town with a historic downtown, popular for its riverfront setting and small-town character.",
+    "description": "St. Charles sits directly on the Fox River, with a historic, walkable downtown of 19th-century limestone buildings and a strong small-town identity distinct from closer-in Chicago suburbs.",
+    "commute": "Car-dependent (no Metra in St. Charles proper; nearest is Geneva), roughly 60-70 minutes to Ogilvie",
+    "schools": "St. Charles East/North High Schools; St. Charles School District 303",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "batavia",
+    "name": "Batavia",
+    "region": "Fox Valley",
+    "tags": [
+      "Historic",
+      "Riverfront",
+      "Value"
+    ],
+    "vibe": "A historic Fox River mill town, known as the \"Windmill City,\" with a walkable downtown and accessible pricing relative to neighboring Fox Valley towns.",
+    "description": "Batavia grew up around Fox River mills and windmill manufacturing in the 19th century, and today offers a walkable historic downtown with generally more accessible pricing than nearby Geneva or St. Charles.",
+    "commute": "Metra Union Pacific West Line, roughly 65-75 minutes to Ogilvie",
+    "schools": "Batavia High School; Batavia Public School District 101",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "region": "Fox Valley",
+    "tags": [
+      "Value",
+      "Diverse",
+      "Growing"
+    ],
+    "vibo": "",
+    "vibe": "Illinois's second-largest city, spanning the Fox River, offering the widest range of price points of any suburb on this list.",
+    "description": "Aurora is Illinois's second-largest city by population, a diverse, sprawling community along the Fox River with a historic downtown (including the restored Paramount Theatre) and the widest range of housing prices and styles of any community in this guide.",
+    "commute": "Metra BNSF Line (express service available), roughly 60-70 minutes to Union Station",
+    "schools": "Multiple high schools across several districts (East, West, Indian Prairie, Oswego)",
+    "priceTier": "$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "barrington",
+    "name": "Barrington",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Luxury",
+      "Equestrian",
+      "Rural feel"
+    ],
+    "vibe": "A cluster of Barrington-area communities known for large-lot, semi-rural estates and equestrian culture.",
+    "description": "The Barrington area (Barrington, North Barrington, South Barrington, Barrington Hills) is known for large-lot, semi-rural estates, horse farms, and some of the most land-per-dollar of any suburb within reasonable commuting distance of Chicago.",
+    "commute": "Metra Union Pacific Northwest Line, roughly 60-70 minutes to Ogilvie",
+    "schools": "Barrington High School; Barrington Community Unit School District 220",
+    "priceTier": "$$$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "lake-zurich",
+    "name": "Lake Zurich",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Lakefront",
+      "Families",
+      "Suburban"
+    ],
+    "vibe": "A lake-centered Lake County suburb with a walkable, revitalized downtown near the water.",
+    "description": "Lake Zurich is built around its namesake lake, with a downtown that has seen significant revitalization in recent years, drawing families who want lake access without North Shore prices.",
+    "commute": "Car-dependent; nearest Metra in Barrington/Long Grove area, roughly 60-70 minutes to Ogilvie",
+    "schools": "Lake Zurich High School; Lake Zurich Community Unit School District 95",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "vernon-hills",
+    "name": "Vernon Hills",
+    "region": "North Shore",
+    "tags": [
+      "Convenient",
+      "Shopping",
+      "Families"
+    ],
+    "vibe": "A newer, planned Lake County suburb known for major shopping centers and family-friendly subdivisions.",
+    "description": "Vernon Hills is a newer, largely master-planned Lake County suburb, known regionally for major retail (Hawthorn Mall) alongside family-oriented subdivisions and good access to the Tri-State Tollway.",
+    "commute": "Metra Milwaukee District North (nearby stations), roughly 55-65 minutes to Union Station",
+    "schools": "Vernon Hills / Libertyville High Schools; Fremont/Hawthorn School Districts",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "niles",
+    "name": "Niles",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Value",
+      "Diverse",
+      "Convenient"
+    ],
+    "vibe": "A close-in, diverse Northwest suburb known for its own leaning Tower of Pisa replica and accessible pricing.",
+    "description": "Niles is a close-in, diverse Northwest suburb offering generally accessible pricing and quick access to the city, with a well-known local landmark: a half-scale replica of the Leaning Tower of Pisa.",
+    "commute": "CTA Blue/Yellow Line connections nearby; car/bus-dependent, roughly 30-35 minutes to the Loop",
+    "schools": "Maine East/Notre Dame High Schools; Niles Elementary School District 71",
+    "priceTier": "$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
+  },
+  {
+    "slug": "morton-grove",
+    "name": "Morton Grove",
+    "region": "Northwest Suburbs",
+    "tags": [
+      "Value",
+      "Families",
+      "Convenient"
+    ],
+    "vibe": "A quiet, close-in Northwest suburb with a mix of postwar housing and easy access to the Edens Expressway.",
+    "description": "Morton Grove is a quiet, family-oriented Northwest suburb with a largely postwar housing stock, offering solid value and convenient access to both the Edens Expressway and Metra.",
+    "commute": "Metra Milwaukee District North, roughly 35-40 minutes to Union Station",
+    "schools": "Niles West High School; Morton Grove School District 70",
+    "priceTier": "$$$",
+    "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"
   }
 ]

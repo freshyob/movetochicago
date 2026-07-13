@@ -674,5 +674,139 @@
       "Eugene Field Park's Tudor Revival fieldhouse, designed by Clarence Hatzfeld in 1928, was listed on the National Register of Historic Places in 2006."
     ],
     "distanceFromLoop": "About 8 miles northwest of the Loop \u2014 roughly 20-25 minutes by car, 30 minutes via the Brown Line"
+  },
+  {
+    "slug": "austin",
+    "name": "Austin",
+    "side": "West Side",
+    "tags": [
+      "Value",
+      "Historic",
+      "Greystones"
+    ],
+    "vibe": "Chicago's largest community area by land, with a deep stock of vintage greystones and bungalows at some of the city's most accessible prices.",
+    "description": "Austin is a historic West Side neighborhood known for its Victorian and Prairie-era greystones, many built when the area was an independent village before it was annexed by Chicago in 1899. It offers some of the best housing-stock-for-price in the city, alongside an active push for reinvestment.",
+    "transit": [
+      "Green Line",
+      "Blue Line (Austin stop)",
+      "Metra Milwaukee District West"
+    ],
+    "goodFor": "Buyers looking for larger vintage homes and lower price points within city limits.",
+    "priceTier": "$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Columbus%20Park%20Chicago%20boathouse%201.JPG?width=1200",
+    "photoCredit": "Columbus Park boathouse, Austin, via Wikimedia Commons",
+    "famousResidents": [
+      "Brandon Johnson \u2014 Mayor of Chicago, current Austin resident",
+      "Robert Townsend \u2014 actor and director",
+      "Hannibal Buress \u2014 comedian"
+    ],
+    "funFacts": [
+      "Columbus Park, a 135-acre National Historic Landmark, is considered the masterpiece of landscape architect Jens Jensen and the only Chicago park he designed entirely on his own.",
+      "The J.J. Walser Jr. House, built in 1903, is one of only a few Frank Lloyd Wright-designed homes on Chicago's West Side.",
+      "MacArthur's Restaurant, a soul food institution on West Madison Street, is a favorite of Barack Obama's."
+    ],
+    "distanceFromLoop": "About 7 miles west of the Loop \u2014 roughly 20 minutes by car, 30-35 minutes via the Green Line"
+  },
+  {
+    "slug": "humboldt-park",
+    "name": "Humboldt Park",
+    "side": "West Side",
+    "tags": [
+      "Cultural",
+      "Value",
+      "Historic"
+    ],
+    "vibe": "Anchored by the 207-acre park at its center and the Paseo Boricua corridor celebrating the neighborhood's Puerto Rican heritage.",
+    "description": "Humboldt Park takes its name from the sprawling Chicago Park District park designed by William Le Baron Jenney and Jens Jensen at its heart. The neighborhood is the cultural home of Chicago's Puerto Rican community, especially along the Division Street corridor known as Paseo Boricua, and offers a mix of greystones, bungalows, and new construction at prices below more built-out North Side neighborhoods.",
+    "transit": [
+      "Blue Line (California, Western)",
+      "Metra Milwaukee District West"
+    ],
+    "goodFor": "Buyers who want park access, cultural community, and relative affordability close to the Blue Line.",
+    "priceTier": "$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20Photo%20of%20Humboldt%20Park%20Boat%20House.jpg?width=1200",
+    "photoCredit": "Humboldt Park boathouse and lagoon, via Wikimedia Commons",
+    "funFacts": [
+      "The park's Prairie-style boathouse, designed by Schmidt, Garden & Martin under Jens Jensen, is a Chicago Landmark, as is the 1890s stable and receptory building nearby.",
+      "The 606 elevated trail, built on a former rail line, connects Humboldt Park to Logan Square, Wicker Park, and Bucktown."
+    ],
+    "distanceFromLoop": "About 5 miles west of the Loop \u2014 roughly 15 minutes by car, 25-30 minutes via bus/Blue Line combination"
+  },
+  {
+    "slug": "chinatown",
+    "name": "Chinatown",
+    "side": "South Side",
+    "tags": [
+      "Cultural",
+      "Walkable",
+      "Dining"
+    ],
+    "vibe": "A dense, walkable cultural enclave along Wentworth Avenue with some of the city's best Cantonese and Sichuan food.",
+    "description": "Chicago's Chinatown, centered on Wentworth Avenue within the Armour Square community area, has been a hub of Chinese-American life since the early 20th century. It's dense and walkable, with a mix of century-old low-rises and newer condo development, plus direct Red Line access to the Loop.",
+    "transit": [
+      "Red Line (Cermak-Chinatown)",
+      "Riverwalk / Ping Tom Park"
+    ],
+    "goodFor": "Buyers who want a walkable, dining-rich neighborhood with a fast downtown commute.",
+    "priceTier": "$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cermak%E2%80%93Chinatown%20station%20View%20to%20Chicago%20downtown.jpg?width=1200",
+    "photoCredit": "Cermak-Chinatown Red Line station, via Wikimedia Commons",
+    "funFacts": [
+      "Chicago's Chinatown is the third-largest in the United States, and unlike many other American Chinatowns, its Chinese population more than doubled between 1990 and 2020.",
+      "The Pui Tak Center, a 1926 building with pagoda-inspired towers, was originally the On Leong Merchants Association headquarters and is a designated Chicago Landmark."
+    ],
+    "distanceFromLoop": "About 3 miles south of the Loop \u2014 roughly 10 minutes by car, 15 minutes via the Red Line"
+  },
+  {
+    "slug": "south-shore",
+    "name": "South Shore",
+    "side": "South Side",
+    "tags": [
+      "Lakefront",
+      "Historic",
+      "Value"
+    ],
+    "vibe": "A lakefront South Side neighborhood built around the South Shore Cultural Center, with grand old apartment buildings and a growing wave of reinvestment tied to the nearby Obama Presidential Center.",
+    "description": "South Shore sits directly on Lake Michigan south of Hyde Park, anchored by the South Shore Cultural Center (a former country club, now a Chicago Park District landmark that hosted Barack and Michelle Obama's wedding reception). The neighborhood's grand vintage courtyard buildings and lakefront access have drawn renewed investment interest, particularly with the Obama Presidential Center now open in neighboring Jackson Park.",
+    "transit": [
+      "Metra Electric",
+      "South Shore Line",
+      "Lakefront Trail"
+    ],
+    "goodFor": "Buyers looking for lakefront access and vintage architecture at South Side prices, with upside tied to nearby development.",
+    "priceTier": "$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20070602%20South%20Shore%20Cultural%20Center.JPG?width=1200",
+    "photoCredit": "South Shore Cultural Center, via Wikimedia Commons",
+    "funFacts": [
+      "The South Shore Cultural Center, a Chicago Landmark, was the site of Barack and Michelle Obama's wedding reception in 1992.",
+      "Its exterior was used as the \"Palace Hotel Ballroom\" in the 1980 film The Blues Brothers."
+    ],
+    "distanceFromLoop": "About 9 miles south of the Loop \u2014 roughly 20-25 minutes by car, 35-40 minutes via Metra Electric"
+  },
+  {
+    "slug": "sauganash",
+    "name": "Sauganash",
+    "side": "North Side",
+    "tags": [
+      "Suburban feel",
+      "Families",
+      "Quiet"
+    ],
+    "vibe": "A leafy, suburban-feeling enclave within the Forest Glen community area, popular with families who want city services and a quiet, curving-street layout.",
+    "description": "Sauganash, part of the Forest Glen community area on the Far North Side, is known for its curving, suburban-style streets, larger lots, and quiet, family-oriented feel \u2014 while still technically inside Chicago city limits. It's one of the city's more suburban-feeling pockets.",
+    "transit": [
+      "Metra Milwaukee District North (Forest Glen)",
+      "Kennedy Expressway access"
+    ],
+    "goodFor": "Families who want a suburban layout and larger lots without leaving the city (and Chicago Public Schools boundaries).",
+    "priceTier": "$$$",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Queen%20of%20All%20Saints%20Basilica%2C%20September%202019.JPG?width=1200",
+    "photoCredit": "Queen of All Saints Basilica, Sauganash, via Wikimedia Commons",
+    "funFacts": [
+      "Named for Billy Caldwell, known as \"Chief Sauganash\" (English-speaking), who was awarded this land by the U.S. government after helping save the Kinzie family during the 1812 Fort Dearborn attack.",
+      "The Sauganash Historic District, added to the National Register of Historic Places in 2010, includes 468 contributing structures.",
+      "Queen of All Saints, one of only three minor basilicas in Chicago, houses a collection of more than 150 religious relics."
+    ],
+    "distanceFromLoop": "About 12 miles northwest of the Loop \u2014 roughly 25-30 minutes by car; no direct rail, car/bus-dependent"
   }
 ]
